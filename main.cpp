@@ -39,8 +39,16 @@ int getTickCount() {
 }
 
 int main(){
-    RequestGenerator RQ = RequestGenerator();
+    RequestGenerator RQ;
     LoadBalancer LB = LoadBalancer(getServerCount());
     int tickMax = getTickCount();
     LB.receiveRequestBatch(RQ.fillServers(LB.getServerCount() * 100));
+    LB.StartLog();
+    for(int i = 0; i < tickMax; i++){
+        if(i % 25 == 0&& i != 0){
+            LB.receiveRequestBatch(RQ.generateRandomRequests());
+        }
+        LB.tick();
+    }
+    LB.EndLog();
 }

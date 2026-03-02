@@ -1,3 +1,4 @@
+#ifndef REQUEST_H
 #define REQUEST_H
 #include <string>
 
@@ -17,3 +18,4 @@ class Request {
         int getTime() const;
         char getJobType() const;
 };
+#endif

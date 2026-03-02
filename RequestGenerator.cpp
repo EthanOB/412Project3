@@ -1,49 +1,69 @@
 #include "RequestGenerator.h"
+#include <iostream>
 #include <fstream>
 #include <ctime>
 
-RequestGenerator::RequestGenerator(){
-    attackIP = generateRandomIP();
+RequestGenerator::RequestGenerator()
+{
     loadConfiguration(".config");
 }
-std::queue<Request> RequestGenerator::fillServers(int numRequests){
+std::queue<Request> RequestGenerator::fillServers(int numRequests)
+{
     std::queue<Request> reqQueue = std::queue<Request>();
-    for(int i = 0; i < numRequests; i++){
+    for (int i = 0; i < numRequests; i++)
+    {
         reqQueue.push(generateRequest());
     }
     return reqQueue;
 }
-std::queue<Request> RequestGenerator::generateRandomRequests(){
+std::queue<Request> RequestGenerator::generateRandomRequests()
+{
     std::queue<Request> reqQueue = std::queue<Request>();
     int numReq = 0;
-    if(randomAttack){
+    if (randomAttackBurst())
+    {
         numReq = maxRequests;
+        std::string attackIP = generateRandomIP();
+        for (int i = 0; i < numReq; i++)
+        {
+            reqQueue.push(Request(attackIP, generateRandomIP(), randomTime(), randomCategory()));
+        }
     }
-    else{
-        numReq = randomRequestCount();
-    }
-    for(int i = 0; i < numReq; i++){
-        reqQueue.push(generateRequest());
+    else
+    {
+        if (randomBurst())
+        {
+            numReq = maxRequests;
+        }
+        else
+        {
+            numReq = randomRequestCount();
+        }
+        for (int i = 0; i < numReq; i++)
+        {
+            reqQueue.push(generateRequest());
+        }
     }
     return reqQueue;
 }
 
-Request RequestGenerator::generateRequest(){
+Request RequestGenerator::generateRequest()
+{
     return Request(generateRandomIP(), generateRandomIP(), randomTime(), randomCategory());
 }
 
-std::string RequestGenerator::generateRandomIP(){
-    static std::random_device rd;
+std::string RequestGenerator::generateRandomIP()
+{
     static std::mt19937 gen(rd());
     static std::uniform_int_distribution<> dist(0, 255);
-
     return std::to_string(dist(gen)) + "." +
            std::to_string(dist(gen)) + "." +
            std::to_string(dist(gen)) + "." +
            std::to_string(dist(gen));
 }
 
-void RequestGenerator::loadConfiguration(std::string filename){
+void RequestGenerator::loadConfiguration(std::string filename)
+{
 
     std::ifstream configFile(filename);
     if (!configFile.is_open())
@@ -71,47 +91,51 @@ void RequestGenerator::loadConfiguration(std::string filename){
     }
     configFile.close();
 }
-bool RequestGenerator::randomAttack(){
-    static std::random_device rd;
+bool RequestGenerator::randomAttackBurst()
+{
     static std::mt19937 gen(rd());
     static std::uniform_int_distribution<> dist(1, 100);
-    if(dist(gen) <= 15){ // 15 of 100 messages will be from the attack IP address
+    if (dist(gen) == 1)
+    { // 1 of 100 messages will be from the attack IP address
         return true;
     }
     return false;
 }
-bool RequestGenerator::randomBurst(){
-    static std::random_device rd;
+bool RequestGenerator::randomBurst()
+{
     static std::mt19937 gen(rd());
     static std::uniform_int_distribution<> dist(1, 100);
-    if(dist(gen) == 1){ // 1 of 100 request queues will be bursts
+    if (dist(gen) <= 2)
+    { // 3 of 100 request queues will be bursts
         return true;
     }
     return false;
 }
 
-int RequestGenerator::randomRequestCount(){
-    static std::random_device rd;
+int RequestGenerator::randomRequestCount()
+{
     static std::mt19937 gen(rd());
-    static std::uniform_int_distribution<> dist(floor(maxRequests * 0.05), floor(maxRequests * 0.25));
+    static std::uniform_int_distribution<> dist(0, floor(maxRequests * 0.01));
     return dist(gen);
 }
 
-int RequestGenerator::randomTime(){
-    static std::random_device rd;
+int RequestGenerator::randomTime()
+{
     static std::mt19937 gen(rd());
-    static std::uniform_int_distribution<> dist(1,maxTime);
+    static std::uniform_int_distribution<> dist(1, maxTime);
     return dist(gen);
 }
 
-char RequestGenerator::randomCategory(){
-    static std::random_device rd;
+char RequestGenerator::randomCategory()
+{
     static std::mt19937 gen(rd());
-    static std::uniform_int_distribution<> dist(1,2);
-    if(dist(gen) == 1){
+    static std::uniform_int_distribution<> dist(1, 2);
+    if (dist(gen) == 1)
+    {
         return 'P';
     }
-    else{
+    else
+    {
         return 'S';
     }
 }

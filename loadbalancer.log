@@ -1,0 +1,1530 @@
+[2026-03-01 20:48:55] Load balancer started with 10 servers
+[2026-03-01 20:48:57] Recieved 1000 requests at tick 0
+[2026-03-01 20:48:57] Minimum time to take down server: 3000
+[2026-03-01 20:48:57] Maximum time to bring up server: 7000
+[2026-03-01 20:48:57] Total queued time of: 2719
+[2026-03-01 20:48:57] Took down server 0 at tick 0
+[2026-03-01 20:48:57] Recieved 8 requests at tick 25
+[2026-03-01 20:48:57] Recieved 15 requests at tick 50
+[2026-03-01 20:48:57] Recieved 35 requests at tick 75
+[2026-03-01 20:48:57] Recieved 32 requests at tick 100
+[2026-03-01 20:48:57] Recieved 50 requests at tick 125
+[2026-03-01 20:48:57] Recieved 10 requests at tick 150
+[2026-03-01 20:48:57] Recieved 5 requests at tick 175
+[2026-03-01 20:48:57] Recieved 49 requests at tick 200
+[2026-03-01 20:48:57] Recieved 49 requests at tick 225
+[2026-03-01 20:48:57] Recieved 25 requests at tick 250
+[2026-03-01 20:48:57] Recieved 18 requests at tick 275
+[2026-03-01 20:48:57] Recieved 45 requests at tick 300
+[2026-03-01 20:48:57] Recieved 28 requests at tick 325
+[2026-03-01 20:48:57] Recieved 46 requests at tick 350
+[2026-03-01 20:48:57] Recieved 13 requests at tick 375
+[2026-03-01 20:48:57] Recieved 40 requests at tick 400
+[2026-03-01 20:48:57] Recieved 27 requests at tick 425
+[2026-03-01 20:48:57] Recieved 19 requests at tick 450
+[2026-03-01 20:48:57] Recieved 27 requests at tick 475
+[2026-03-01 20:48:57] Recieved 13 requests at tick 500
+[2026-03-01 20:48:57] Recieved 35 requests at tick 525
+[2026-03-01 20:48:57] Recieved 9 requests at tick 550
+[2026-03-01 20:48:57] Recieved 1 requests at tick 575
+[2026-03-01 20:48:57] Recieved 6 requests at tick 600
+[2026-03-01 20:48:57] Recieved 16 requests at tick 625
+[2026-03-01 20:48:57] Recieved 21 requests at tick 650
+[2026-03-01 20:48:57] Recieved 10 requests at tick 675
+[2026-03-01 20:48:57] Recieved 15 requests at tick 700
+[2026-03-01 20:48:57] Recieved 28 requests at tick 725
+[2026-03-01 20:48:57] Recieved 36 requests at tick 750
+[2026-03-01 20:48:57] Recieved 47 requests at tick 775
+[2026-03-01 20:48:57] Recieved 26 requests at tick 800
+[2026-03-01 20:48:57] Recieved 26 requests at tick 825
+[2026-03-01 20:48:57] Recieved 49 requests at tick 850
+[2026-03-01 20:48:57] Recieved 22 requests at tick 875
+[2026-03-01 20:48:57] Recieved 8 requests at tick 900
+[2026-03-01 20:48:57] Recieved 33 requests at tick 925
+[2026-03-01 20:48:57] Recieved 17 requests at tick 950
+[2026-03-01 20:48:57] Recieved 24 requests at tick 975
+[2026-03-01 20:48:57] Recieved 22 requests at tick 1000
+[2026-03-01 20:48:57] Recieved 29 requests at tick 1025
+[2026-03-01 20:48:57] Recieved 32 requests at tick 1050
+[2026-03-01 20:48:57] Recieved 0 requests at tick 1075
+[2026-03-01 20:48:57] Recieved 7 requests at tick 1100
+[2026-03-01 20:48:57] Recieved 19 requests at tick 1125
+[2026-03-01 20:48:57] Recieved 5 requests at tick 1150
+[2026-03-01 20:48:57] Recieved 14 requests at tick 1175
+[2026-03-01 20:48:57] Recieved 37 requests at tick 1200
+[2026-03-01 20:48:57] Recieved 7 requests at tick 1225
+[2026-03-01 20:48:57] Recieved 27 requests at tick 1250
+[2026-03-01 20:48:57] Recieved 50 requests at tick 1275
+[2026-03-01 20:48:57] Recieved 34 requests at tick 1300
+[2026-03-01 20:48:57] Recieved 20 requests at tick 1325
+[2026-03-01 20:48:57] Recieved 9 requests at tick 1350
+[2026-03-01 20:48:57] Recieved 25 requests at tick 1375
+[2026-03-01 20:48:57] Recieved 8 requests at tick 1400
+[2026-03-01 20:48:57] Recieved 6 requests at tick 1425
+[2026-03-01 20:48:57] Recieved 26 requests at tick 1450
+[2026-03-01 20:48:57] Recieved 26 requests at tick 1475
+[2026-03-01 20:48:57] Brought up server 9 at tick 1483
+[2026-03-01 20:48:57] Recieved 24 requests at tick 1500
+[2026-03-01 20:48:57] Recieved 33 requests at tick 1525
+[2026-03-01 20:48:57] Recieved 28 requests at tick 1550
+[2026-03-01 20:48:57] Recieved 34 requests at tick 1575
+[2026-03-01 20:48:57] Recieved 36 requests at tick 1600
+[2026-03-01 20:48:57] Recieved 8 requests at tick 1625
+[2026-03-01 20:48:57] Recieved 31 requests at tick 1650
+[2026-03-01 20:48:57] Brought up server 10 at tick 1650
+[2026-03-01 20:48:57] Recieved 13 requests at tick 1675
+[2026-03-01 20:48:57] Recieved 14 requests at tick 1700
+[2026-03-01 20:48:57] Recieved 43 requests at tick 1725
+[2026-03-01 20:48:57] Recieved 30 requests at tick 1750
+[2026-03-01 20:48:57] Recieved 8 requests at tick 1775
+[2026-03-01 20:48:57] Recieved 20 requests at tick 1800
+[2026-03-01 20:48:57] Recieved 27 requests at tick 1825
+[2026-03-01 20:48:57] Recieved 39 requests at tick 1850
+[2026-03-01 20:48:57] Brought up server 11 at tick 1850
+[2026-03-01 20:48:57] Recieved 11 requests at tick 1875
+[2026-03-01 20:48:57] Recieved 37 requests at tick 1900
+[2026-03-01 20:48:57] Recieved 35 requests at tick 1925
+[2026-03-01 20:48:57] Recieved 25 requests at tick 1950
+[2026-03-01 20:48:57] Recieved 50 requests at tick 1975
+[2026-03-01 20:48:57] Recieved 29 requests at tick 2000
+[2026-03-01 20:48:57] Recieved 34 requests at tick 2025
+[2026-03-01 20:48:57] Recieved 15 requests at tick 2050
+[2026-03-01 20:48:57] Recieved 39 requests at tick 2075
+[2026-03-01 20:48:57] Recieved 47 requests at tick 2100
+[2026-03-01 20:48:57] Recieved 41 requests at tick 2125
+[2026-03-01 20:48:57] Brought up server 12 at tick 2126
+[2026-03-01 20:48:57] Recieved 21 requests at tick 2150
+[2026-03-01 20:48:57] Recieved 21 requests at tick 2175
+[2026-03-01 20:48:57] Recieved 48 requests at tick 2200
+[2026-03-01 20:48:57] Brought up server 13 at tick 2201
+[2026-03-01 20:48:57] Recieved 500 requests at tick 2225
+[2026-03-01 20:48:57] Recieved 12 requests at tick 2250
+[2026-03-01 20:48:57] Brought up server 14 at tick 2251
+[2026-03-01 20:48:57] Recieved 41 requests at tick 2275
+[2026-03-01 20:48:57] Recieved 2 requests at tick 2300
+[2026-03-01 20:48:57] Brought up server 15 at tick 2301
+[2026-03-01 20:48:57] Recieved 14 requests at tick 2325
+[2026-03-01 20:48:57] Recieved 8 requests at tick 2350
+[2026-03-01 20:48:57] Recieved 45 requests at tick 2375
+[2026-03-01 20:48:57] Recieved 1 requests at tick 2400
+[2026-03-01 20:48:57] Recieved 44 requests at tick 2425
+[2026-03-01 20:48:57] Brought up server 16 at tick 2425
+[2026-03-01 20:48:57] Recieved 32 requests at tick 2450
+[2026-03-01 20:48:57] Recieved 46 requests at tick 2475
+[2026-03-01 20:48:57] Brought up server 17 at tick 2482
+[2026-03-01 20:48:57] Recieved 33 requests at tick 2500
+[2026-03-01 20:48:57] Recieved 3 requests at tick 2525
+[2026-03-01 20:48:57] Recieved 38 requests at tick 2550
+[2026-03-01 20:48:57] Recieved 24 requests at tick 2575
+[2026-03-01 20:48:57] Brought up server 18 at tick 2575
+[2026-03-01 20:48:57] Recieved 26 requests at tick 2600
+[2026-03-01 20:48:57] Recieved 13 requests at tick 2625
+[2026-03-01 20:48:57] Recieved 15 requests at tick 2650
+[2026-03-01 20:48:57] Recieved 8 requests at tick 2675
+[2026-03-01 20:48:57] Recieved 30 requests at tick 2700
+[2026-03-01 20:48:57] Recieved 42 requests at tick 2725
+[2026-03-01 20:48:57] Recieved 48 requests at tick 2750
+[2026-03-01 20:48:57] Recieved 1 requests at tick 2775
+[2026-03-01 20:48:57] Recieved 32 requests at tick 2800
+[2026-03-01 20:48:57] Brought up server 19 at tick 2805
+[2026-03-01 20:48:57] Recieved 37 requests at tick 2825
+[2026-03-01 20:48:57] Recieved 24 requests at tick 2850
+[2026-03-01 20:48:57] Recieved 2 requests at tick 2875
+[2026-03-01 20:48:57] Recieved 25 requests at tick 2900
+[2026-03-01 20:48:57] Brought up server 20 at tick 2900
+[2026-03-01 20:48:57] Recieved 50 requests at tick 2925
+[2026-03-01 20:48:57] Recieved 12 requests at tick 2950
+[2026-03-01 20:48:57] Brought up server 21 at tick 2951
+[2026-03-01 20:48:57] Recieved 34 requests at tick 2975
+[2026-03-01 20:48:57] Recieved 44 requests at tick 3000
+[2026-03-01 20:48:57] Recieved 13 requests at tick 3025
+[2026-03-01 20:48:57] Recieved 500 requests at tick 3050
+[2026-03-01 20:48:57] Recieved 27 requests at tick 3075
+[2026-03-01 20:48:57] Brought up server 22 at tick 3096
+[2026-03-01 20:48:57] Recieved 17 requests at tick 3100
+[2026-03-01 20:48:57] Recieved 29 requests at tick 3125
+[2026-03-01 20:48:57] Recieved 39 requests at tick 3150
+[2026-03-01 20:48:57] Recieved 50 requests at tick 3175
+[2026-03-01 20:48:57] Brought up server 23 at tick 3176
+[2026-03-01 20:48:57] Recieved 28 requests at tick 3200
+[2026-03-01 20:48:57] Recieved 42 requests at tick 3225
+[2026-03-01 20:48:57] Brought up server 24 at tick 3226
+[2026-03-01 20:48:57] Recieved 29 requests at tick 3250
+[2026-03-01 20:48:57] Recieved 20 requests at tick 3275
+[2026-03-01 20:48:57] Brought up server 25 at tick 3276
+[2026-03-01 20:48:57] Recieved 17 requests at tick 3300
+[2026-03-01 20:48:57] Recieved 23 requests at tick 3325
+[2026-03-01 20:48:57] Recieved 16 requests at tick 3350
+[2026-03-01 20:48:57] Brought up server 26 at tick 3359
+[2026-03-01 20:48:57] Recieved 48 requests at tick 3375
+[2026-03-01 20:48:57] Recieved 17 requests at tick 3400
+[2026-03-01 20:48:57] Recieved 7 requests at tick 3425
+[2026-03-01 20:48:57] Recieved 1 requests at tick 3450
+[2026-03-01 20:48:57] Recieved 15 requests at tick 3475
+[2026-03-01 20:48:57] Recieved 49 requests at tick 3500
+[2026-03-01 20:48:57] Recieved 0 requests at tick 3525
+[2026-03-01 20:48:57] Recieved 44 requests at tick 3550
+[2026-03-01 20:48:57] Brought up server 27 at tick 3550
+[2026-03-01 20:48:57] Recieved 46 requests at tick 3575
+[2026-03-01 20:48:57] Recieved 23 requests at tick 3600
+[2026-03-01 20:48:57] Recieved 7 requests at tick 3625
+[2026-03-01 20:48:57] Recieved 41 requests at tick 3650
+[2026-03-01 20:48:57] Recieved 45 requests at tick 3675
+[2026-03-01 20:48:57] Brought up server 28 at tick 3675
+[2026-03-01 20:48:57] Recieved 20 requests at tick 3700
+[2026-03-01 20:48:57] Recieved 17 requests at tick 3725
+[2026-03-01 20:48:57] Brought up server 29 at tick 3726
+[2026-03-01 20:48:57] Recieved 5 requests at tick 3750
+[2026-03-01 20:48:57] Recieved 8 requests at tick 3775
+[2026-03-01 20:48:57] Recieved 15 requests at tick 3800
+[2026-03-01 20:48:57] Recieved 12 requests at tick 3825
+[2026-03-01 20:48:57] Recieved 4 requests at tick 3850
+[2026-03-01 20:48:57] Recieved 33 requests at tick 3875
+[2026-03-01 20:48:57] Recieved 7 requests at tick 3900
+[2026-03-01 20:48:57] Recieved 1 requests at tick 3925
+[2026-03-01 20:48:57] Recieved 38 requests at tick 3950
+[2026-03-01 20:48:57] Recieved 36 requests at tick 3975
+[2026-03-01 20:48:57] Recieved 26 requests at tick 4000
+[2026-03-01 20:48:57] Brought up server 30 at tick 4018
+[2026-03-01 20:48:57] Recieved 9 requests at tick 4025
+[2026-03-01 20:48:57] Recieved 5 requests at tick 4050
+[2026-03-01 20:48:57] Recieved 27 requests at tick 4075
+[2026-03-01 20:48:57] Recieved 24 requests at tick 4100
+[2026-03-01 20:48:57] Recieved 10 requests at tick 4125
+[2026-03-01 20:48:57] Recieved 42 requests at tick 4150
+[2026-03-01 20:48:57] Recieved 1 requests at tick 4175
+[2026-03-01 20:48:57] Brought up server 31 at tick 4175
+[2026-03-01 20:48:57] Recieved 8 requests at tick 4200
+[2026-03-01 20:48:57] Recieved 11 requests at tick 4225
+[2026-03-01 20:48:57] Brought up server 32 at tick 4227
+[2026-03-01 20:48:57] Recieved 17 requests at tick 4250
+[2026-03-01 20:48:57] Recieved 8 requests at tick 4275
+[2026-03-01 20:48:57] Recieved 46 requests at tick 4300
+[2026-03-01 20:48:57] Recieved 13 requests at tick 4325
+[2026-03-01 20:48:57] Recieved 40 requests at tick 4350
+[2026-03-01 20:48:57] Recieved 31 requests at tick 4375
+[2026-03-01 20:48:57] Recieved 50 requests at tick 4400
+[2026-03-01 20:48:57] Recieved 14 requests at tick 4425
+[2026-03-01 20:48:57] Recieved 15 requests at tick 4450
+[2026-03-01 20:48:57] Recieved 14 requests at tick 4475
+[2026-03-01 20:48:57] Brought up server 33 at tick 4497
+[2026-03-01 20:48:57] Recieved 11 requests at tick 4500
+[2026-03-01 20:48:57] Recieved 39 requests at tick 4525
+[2026-03-01 20:48:57] Recieved 7 requests at tick 4550
+[2026-03-01 20:48:57] Brought up server 34 at tick 4551
+[2026-03-01 20:48:57] Recieved 18 requests at tick 4575
+[2026-03-01 20:48:57] Recieved 48 requests at tick 4600
+[2026-03-01 20:48:57] Recieved 7 requests at tick 4625
+[2026-03-01 20:48:57] Recieved 35 requests at tick 4650
+[2026-03-01 20:48:57] Recieved 50 requests at tick 4675
+[2026-03-01 20:48:57] Brought up server 35 at tick 4699
+[2026-03-01 20:48:57] Recieved 2 requests at tick 4700
+[2026-03-01 20:48:57] Recieved 17 requests at tick 4725
+[2026-03-01 20:48:57] Recieved 28 requests at tick 4750
+[2026-03-01 20:48:57] Recieved 36 requests at tick 4775
+[2026-03-01 20:48:57] Brought up server 36 at tick 4776
+[2026-03-01 20:48:57] Recieved 24 requests at tick 4800
+[2026-03-01 20:48:57] Recieved 13 requests at tick 4825
+[2026-03-01 20:48:57] Recieved 38 requests at tick 4850
+[2026-03-01 20:48:57] Recieved 500 requests at tick 4875
+[2026-03-01 20:48:57] Brought up server 37 at tick 4875
+[2026-03-01 20:48:57] Recieved 42 requests at tick 4900
+[2026-03-01 20:48:57] Recieved 27 requests at tick 4925
+[2026-03-01 20:48:57] Brought up server 38 at tick 4935
+[2026-03-01 20:48:57] Recieved 44 requests at tick 4950
+[2026-03-01 20:48:57] Recieved 7 requests at tick 4975
+[2026-03-01 20:48:57] Brought up server 39 at tick 4987
+[2026-03-01 20:48:57] Recieved 45 requests at tick 5000
+[2026-03-01 20:48:57] Recieved 3 requests at tick 5025
+[2026-03-01 20:48:57] Recieved 33 requests at tick 5050
+[2026-03-01 20:48:57] Brought up server 40 at tick 5054
+[2026-03-01 20:48:57] Recieved 29 requests at tick 5075
+[2026-03-01 20:48:57] Recieved 30 requests at tick 5100
+[2026-03-01 20:48:57] Brought up server 41 at tick 5104
+[2026-03-01 20:48:57] Recieved 26 requests at tick 5125
+[2026-03-01 20:48:57] Recieved 8 requests at tick 5150
+[2026-03-01 20:48:57] Brought up server 42 at tick 5160
+[2026-03-01 20:48:57] Recieved 6 requests at tick 5175
+[2026-03-01 20:48:57] Recieved 22 requests at tick 5200
+[2026-03-01 20:48:57] Recieved 36 requests at tick 5225
+[2026-03-01 20:48:57] Recieved 26 requests at tick 5250
+[2026-03-01 20:48:57] Recieved 25 requests at tick 5275
+[2026-03-01 20:48:57] Recieved 40 requests at tick 5300
+[2026-03-01 20:48:57] Recieved 26 requests at tick 5325
+[2026-03-01 20:48:57] Recieved 4 requests at tick 5350
+[2026-03-01 20:48:57] Brought up server 43 at tick 5359
+[2026-03-01 20:48:57] Recieved 7 requests at tick 5375
+[2026-03-01 20:48:57] Recieved 43 requests at tick 5400
+[2026-03-01 20:48:57] Brought up server 44 at tick 5419
+[2026-03-01 20:48:57] Recieved 34 requests at tick 5425
+[2026-03-01 20:48:57] Recieved 12 requests at tick 5450
+[2026-03-01 20:48:57] Brought up server 45 at tick 5470
+[2026-03-01 20:48:57] Recieved 34 requests at tick 5475
+[2026-03-01 20:48:57] Recieved 25 requests at tick 5500
+[2026-03-01 20:48:57] Brought up server 46 at tick 5520
+[2026-03-01 20:48:57] Recieved 36 requests at tick 5525
+[2026-03-01 20:48:57] Recieved 29 requests at tick 5550
+[2026-03-01 20:48:57] Recieved 28 requests at tick 5575
+[2026-03-01 20:48:57] Recieved 20 requests at tick 5600
+[2026-03-01 20:48:57] Recieved 48 requests at tick 5625
+[2026-03-01 20:48:57] Recieved 50 requests at tick 5650
+[2026-03-01 20:48:57] Brought up server 47 at tick 5656
+[2026-03-01 20:48:57] Recieved 26 requests at tick 5675
+[2026-03-01 20:48:57] Recieved 21 requests at tick 5700
+[2026-03-01 20:48:57] Brought up server 48 at tick 5709
+[2026-03-01 20:48:57] Recieved 21 requests at tick 5725
+[2026-03-01 20:48:57] Recieved 10 requests at tick 5750
+[2026-03-01 20:48:57] Brought up server 49 at tick 5769
+[2026-03-01 20:48:57] Recieved 7 requests at tick 5775
+[2026-03-01 20:48:57] Recieved 11 requests at tick 5800
+[2026-03-01 20:48:57] Recieved 39 requests at tick 5825
+[2026-03-01 20:48:57] Recieved 28 requests at tick 5850
+[2026-03-01 20:48:57] Brought up server 50 at tick 5851
+[2026-03-01 20:48:57] Recieved 1 requests at tick 5875
+[2026-03-01 20:48:57] Recieved 12 requests at tick 5900
+[2026-03-01 20:48:57] Brought up server 51 at tick 5901
+[2026-03-01 20:48:57] Recieved 20 requests at tick 5925
+[2026-03-01 20:48:57] Recieved 17 requests at tick 5950
+[2026-03-01 20:48:57] Brought up server 52 at tick 5952
+[2026-03-01 20:48:57] Recieved 14 requests at tick 5975
+[2026-03-01 20:48:57] Recieved 3 requests at tick 6000
+[2026-03-01 20:48:57] Brought up server 53 at tick 6003
+[2026-03-01 20:48:57] Recieved 12 requests at tick 6025
+[2026-03-01 20:48:57] Recieved 20 requests at tick 6050
+[2026-03-01 20:48:57] Took down server 52 at tick 6054
+[2026-03-01 20:48:57] Recieved 20 requests at tick 6075
+[2026-03-01 20:48:57] Recieved 47 requests at tick 6100
+[2026-03-01 20:48:57] Recieved 16 requests at tick 6125
+[2026-03-01 20:48:57] Recieved 29 requests at tick 6150
+[2026-03-01 20:48:57] Brought up server 53 at tick 6151
+[2026-03-01 20:48:57] Recieved 500 requests at tick 6175
+[2026-03-01 20:48:57] Blocked IP 61.57.19.227 for making too many requests at tick 6175
+[2026-03-01 20:48:57] Recieved 2 requests at tick 6200
+[2026-03-01 20:48:57] Brought up server 54 at tick 6202
+[2026-03-01 20:48:57] Recieved 29 requests at tick 6225
+[2026-03-01 20:48:57] Recieved 4 requests at tick 6250
+[2026-03-01 20:48:57] Brought up server 55 at tick 6252
+[2026-03-01 20:48:57] Recieved 29 requests at tick 6275
+[2026-03-01 20:48:57] Recieved 17 requests at tick 6300
+[2026-03-01 20:48:57] Took down server 23 at tick 6320
+[2026-03-01 20:48:57] Recieved 23 requests at tick 6325
+[2026-03-01 20:48:57] Recieved 44 requests at tick 6350
+[2026-03-01 20:48:57] Brought up server 55 at tick 6370
+[2026-03-01 20:48:57] Recieved 22 requests at tick 6375
+[2026-03-01 20:48:57] Recieved 46 requests at tick 6400
+[2026-03-01 20:48:57] Recieved 40 requests at tick 6425
+[2026-03-01 20:48:57] Recieved 44 requests at tick 6450
+[2026-03-01 20:48:57] Brought up server 56 at tick 6450
+[2026-03-01 20:48:57] Recieved 12 requests at tick 6475
+[2026-03-01 20:48:57] Recieved 0 requests at tick 6500
+[2026-03-01 20:48:57] Brought up server 57 at tick 6500
+[2026-03-01 20:48:57] Recieved 39 requests at tick 6525
+[2026-03-01 20:48:57] Recieved 45 requests at tick 6550
+[2026-03-01 20:48:57] Recieved 18 requests at tick 6575
+[2026-03-01 20:48:57] Recieved 34 requests at tick 6600
+[2026-03-01 20:48:57] Recieved 37 requests at tick 6625
+[2026-03-01 20:48:57] Brought up server 58 at tick 6644
+[2026-03-01 20:48:57] Recieved 49 requests at tick 6650
+[2026-03-01 20:48:57] Recieved 48 requests at tick 6675
+[2026-03-01 20:48:57] Recieved 38 requests at tick 6700
+[2026-03-01 20:48:57] Brought up server 59 at tick 6701
+[2026-03-01 20:48:57] Recieved 15 requests at tick 6725
+[2026-03-01 20:48:57] Recieved 14 requests at tick 6750
+[2026-03-01 20:48:57] Recieved 500 requests at tick 6775
+[2026-03-01 20:48:57] Brought up server 60 at tick 6775
+[2026-03-01 20:48:57] Recieved 36 requests at tick 6800
+[2026-03-01 20:48:57] Recieved 8 requests at tick 6825
+[2026-03-01 20:48:57] Brought up server 61 at tick 6830
+[2026-03-01 20:48:57] Recieved 48 requests at tick 6850
+[2026-03-01 20:48:57] Recieved 0 requests at tick 6875
+[2026-03-01 20:48:57] Recieved 20 requests at tick 6900
+[2026-03-01 20:48:57] Recieved 32 requests at tick 6925
+[2026-03-01 20:48:57] Recieved 26 requests at tick 6950
+[2026-03-01 20:48:58] Recieved 500 requests at tick 6975
+[2026-03-01 20:48:58] Brought up server 62 at tick 6979
+[2026-03-01 20:48:58] Recieved 36 requests at tick 7000
+[2026-03-01 20:48:58] Recieved 14 requests at tick 7025
+[2026-03-01 20:48:58] Brought up server 63 at tick 7032
+[2026-03-01 20:48:58] Recieved 14 requests at tick 7050
+[2026-03-01 20:48:58] Recieved 5 requests at tick 7075
+[2026-03-01 20:48:58] Took down server 14 at tick 7096
+[2026-03-01 20:48:58] Recieved 12 requests at tick 7100
+[2026-03-01 20:48:58] Recieved 40 requests at tick 7125
+[2026-03-01 20:48:58] Recieved 11 requests at tick 7150
+[2026-03-01 20:48:58] Brought up server 63 at tick 7155
+[2026-03-01 20:48:58] Recieved 27 requests at tick 7175
+[2026-03-01 20:48:58] Recieved 19 requests at tick 7200
+[2026-03-01 20:48:58] Recieved 7 requests at tick 7225
+[2026-03-01 20:48:58] Brought up server 64 at tick 7234
+[2026-03-01 20:48:58] Recieved 20 requests at tick 7250
+[2026-03-01 20:48:58] Recieved 30 requests at tick 7275
+[2026-03-01 20:48:58] Brought up server 65 at tick 7284
+[2026-03-01 20:48:58] Recieved 37 requests at tick 7300
+[2026-03-01 20:48:58] Recieved 3 requests at tick 7325
+[2026-03-01 20:48:58] Recieved 16 requests at tick 7350
+[2026-03-01 20:48:58] Brought up server 66 at tick 7362
+[2026-03-01 20:48:58] Recieved 29 requests at tick 7375
+[2026-03-01 20:48:58] Recieved 2 requests at tick 7400
+[2026-03-01 20:48:58] Recieved 26 requests at tick 7425
+[2026-03-01 20:48:58] Brought up server 67 at tick 7425
+[2026-03-01 20:48:58] Recieved 16 requests at tick 7450
+[2026-03-01 20:48:58] Recieved 4 requests at tick 7475
+[2026-03-01 20:48:58] Brought up server 68 at tick 7481
+[2026-03-01 20:48:58] Recieved 28 requests at tick 7500
+[2026-03-01 20:48:58] Recieved 37 requests at tick 7525
+[2026-03-01 20:48:58] Brought up server 69 at tick 7536
+[2026-03-01 20:48:58] Recieved 29 requests at tick 7550
+[2026-03-01 20:48:58] Recieved 29 requests at tick 7575
+[2026-03-01 20:48:58] Recieved 26 requests at tick 7600
+[2026-03-01 20:48:58] Recieved 29 requests at tick 7625
+[2026-03-01 20:48:58] Recieved 34 requests at tick 7650
+[2026-03-01 20:48:58] Recieved 26 requests at tick 7675
+[2026-03-01 20:48:58] Recieved 3 requests at tick 7700
+[2026-03-01 20:48:58] Brought up server 70 at tick 7706
+[2026-03-01 20:48:58] Recieved 36 requests at tick 7725
+[2026-03-01 20:48:58] Recieved 37 requests at tick 7750
+[2026-03-01 20:48:58] Brought up server 71 at tick 7768
+[2026-03-01 20:48:58] Recieved 1 requests at tick 7775
+[2026-03-01 20:48:58] Recieved 13 requests at tick 7800
+[2026-03-01 20:48:58] Recieved 45 requests at tick 7825
+[2026-03-01 20:48:58] Brought up server 72 at tick 7833
+[2026-03-01 20:48:58] Recieved 15 requests at tick 7850
+[2026-03-01 20:48:58] Recieved 24 requests at tick 7875
+[2026-03-01 20:48:58] Recieved 15 requests at tick 7900
+[2026-03-01 20:48:58] Brought up server 73 at tick 7900
+[2026-03-01 20:48:58] Recieved 5 requests at tick 7925
+[2026-03-01 20:48:58] Recieved 34 requests at tick 7950
+[2026-03-01 20:48:58] Recieved 7 requests at tick 7975
+[2026-03-01 20:48:58] Recieved 12 requests at tick 8000
+[2026-03-01 20:48:58] Recieved 45 requests at tick 8025
+[2026-03-01 20:48:58] Recieved 26 requests at tick 8050
+[2026-03-01 20:48:58] Recieved 0 requests at tick 8075
+[2026-03-01 20:48:58] Recieved 16 requests at tick 8100
+[2026-03-01 20:48:58] Recieved 25 requests at tick 8125
+[2026-03-01 20:48:58] Recieved 42 requests at tick 8150
+[2026-03-01 20:48:58] Brought up server 74 at tick 8154
+[2026-03-01 20:48:58] Recieved 49 requests at tick 8175
+[2026-03-01 20:48:58] Recieved 17 requests at tick 8200
+[2026-03-01 20:48:58] Brought up server 75 at tick 8204
+[2026-03-01 20:48:58] Recieved 9 requests at tick 8225
+[2026-03-01 20:48:58] Recieved 500 requests at tick 8250
+[2026-03-01 20:48:58] Blocked IP 54.126.178.75 for making too many requests at tick 8250
+[2026-03-01 20:48:58] Brought up server 76 at tick 8255
+[2026-03-01 20:48:58] Recieved 4 requests at tick 8275
+[2026-03-01 20:48:58] Recieved 41 requests at tick 8300
+[2026-03-01 20:48:58] Brought up server 77 at tick 8305
+[2026-03-01 20:48:58] Recieved 27 requests at tick 8325
+[2026-03-01 20:48:58] Recieved 9 requests at tick 8350
+[2026-03-01 20:48:58] Brought up server 78 at tick 8355
+[2026-03-01 20:48:58] Recieved 36 requests at tick 8375
+[2026-03-01 20:48:58] Recieved 34 requests at tick 8400
+[2026-03-01 20:48:58] Brought up server 79 at tick 8405
+[2026-03-01 20:48:58] Recieved 7 requests at tick 8425
+[2026-03-01 20:48:58] Recieved 2 requests at tick 8450
+[2026-03-01 20:48:58] Brought up server 80 at tick 8455
+[2026-03-01 20:48:58] Recieved 41 requests at tick 8475
+[2026-03-01 20:48:58] Recieved 0 requests at tick 8500
+[2026-03-01 20:48:58] Brought up server 81 at tick 8505
+[2026-03-01 20:48:58] Recieved 19 requests at tick 8525
+[2026-03-01 20:48:58] Recieved 21 requests at tick 8550
+[2026-03-01 20:48:58] Brought up server 82 at tick 8555
+[2026-03-01 20:48:58] Recieved 17 requests at tick 8575
+[2026-03-01 20:48:58] Recieved 8 requests at tick 8600
+[2026-03-01 20:48:58] Brought up server 83 at tick 8605
+[2026-03-01 20:48:58] Recieved 18 requests at tick 8625
+[2026-03-01 20:48:58] Recieved 50 requests at tick 8650
+[2026-03-01 20:48:58] Brought up server 84 at tick 8655
+[2026-03-01 20:48:58] Recieved 16 requests at tick 8675
+[2026-03-01 20:48:58] Recieved 6 requests at tick 8700
+[2026-03-01 20:48:58] Brought up server 85 at tick 8705
+[2026-03-01 20:48:58] Recieved 34 requests at tick 8725
+[2026-03-01 20:48:58] Recieved 12 requests at tick 8750
+[2026-03-01 20:48:58] Brought up server 86 at tick 8755
+[2026-03-01 20:48:58] Recieved 26 requests at tick 8775
+[2026-03-01 20:48:58] Recieved 20 requests at tick 8800
+[2026-03-01 20:48:58] Brought up server 87 at tick 8805
+[2026-03-01 20:48:58] Recieved 33 requests at tick 8825
+[2026-03-01 20:48:58] Recieved 42 requests at tick 8850
+[2026-03-01 20:48:58] Brought up server 88 at tick 8855
+[2026-03-01 20:48:58] Recieved 37 requests at tick 8875
+[2026-03-01 20:48:58] Recieved 6 requests at tick 8900
+[2026-03-01 20:48:58] Brought up server 89 at tick 8905
+[2026-03-01 20:48:58] Recieved 11 requests at tick 8925
+[2026-03-01 20:48:58] Recieved 26 requests at tick 8950
+[2026-03-01 20:48:58] Brought up server 90 at tick 8955
+[2026-03-01 20:48:58] Recieved 500 requests at tick 8975
+[2026-03-01 20:48:58] Recieved 29 requests at tick 9000
+[2026-03-01 20:48:58] Recieved 7 requests at tick 9025
+[2026-03-01 20:48:58] Recieved 5 requests at tick 9050
+[2026-03-01 20:48:58] Recieved 4 requests at tick 9075
+[2026-03-01 20:48:58] Brought up server 91 at tick 9077
+[2026-03-01 20:48:58] Recieved 34 requests at tick 9100
+[2026-03-01 20:48:58] Recieved 21 requests at tick 9125
+[2026-03-01 20:48:58] Brought up server 92 at tick 9127
+[2026-03-01 20:48:58] Recieved 36 requests at tick 9150
+[2026-03-01 20:48:58] Recieved 50 requests at tick 9175
+[2026-03-01 20:48:58] Brought up server 93 at tick 9177
+[2026-03-01 20:48:58] Recieved 0 requests at tick 9200
+[2026-03-01 20:48:58] Recieved 45 requests at tick 9225
+[2026-03-01 20:48:58] Brought up server 94 at tick 9227
+[2026-03-01 20:48:58] Recieved 9 requests at tick 9250
+[2026-03-01 20:48:58] Recieved 29 requests at tick 9275
+[2026-03-01 20:48:58] Brought up server 95 at tick 9277
+[2026-03-01 20:48:58] Recieved 21 requests at tick 9300
+[2026-03-01 20:48:58] Recieved 16 requests at tick 9325
+[2026-03-01 20:48:58] Brought up server 96 at tick 9327
+[2026-03-01 20:48:58] Recieved 11 requests at tick 9350
+[2026-03-01 20:48:58] Recieved 48 requests at tick 9375
+[2026-03-01 20:48:58] Brought up server 97 at tick 9377
+[2026-03-01 20:48:58] Recieved 26 requests at tick 9400
+[2026-03-01 20:48:58] Recieved 26 requests at tick 9425
+[2026-03-01 20:48:58] Brought up server 98 at tick 9427
+[2026-03-01 20:48:58] Recieved 7 requests at tick 9450
+[2026-03-01 20:48:58] Recieved 42 requests at tick 9475
+[2026-03-01 20:48:58] Brought up server 99 at tick 9477
+[2026-03-01 20:48:58] Recieved 2 requests at tick 9500
+[2026-03-01 20:48:58] Recieved 38 requests at tick 9525
+[2026-03-01 20:48:58] Brought up server 100 at tick 9527
+[2026-03-01 20:48:58] Recieved 7 requests at tick 9550
+[2026-03-01 20:48:58] Recieved 34 requests at tick 9575
+[2026-03-01 20:48:58] Brought up server 101 at tick 9577
+[2026-03-01 20:48:58] Recieved 33 requests at tick 9600
+[2026-03-01 20:48:58] Recieved 3 requests at tick 9625
+[2026-03-01 20:48:58] Brought up server 102 at tick 9627
+[2026-03-01 20:48:58] Recieved 500 requests at tick 9650
+[2026-03-01 20:48:58] Blocked IP 188.198.238.240 for making too many requests at tick 9650
+[2026-03-01 20:48:58] Recieved 43 requests at tick 9675
+[2026-03-01 20:48:58] Brought up server 103 at tick 9677
+[2026-03-01 20:48:58] Recieved 9 requests at tick 9700
+[2026-03-01 20:48:58] Recieved 1 requests at tick 9725
+[2026-03-01 20:48:58] Brought up server 104 at tick 9727
+[2026-03-01 20:48:58] Recieved 15 requests at tick 9750
+[2026-03-01 20:48:58] Recieved 12 requests at tick 9775
+[2026-03-01 20:48:58] Brought up server 105 at tick 9777
+[2026-03-01 20:48:58] Recieved 1 requests at tick 9800
+[2026-03-01 20:48:58] Recieved 15 requests at tick 9825
+[2026-03-01 20:48:58] Brought up server 106 at tick 9827
+[2026-03-01 20:48:58] Recieved 28 requests at tick 9850
+[2026-03-01 20:48:58] Recieved 17 requests at tick 9875
+[2026-03-01 20:48:58] Brought up server 107 at tick 9877
+[2026-03-01 20:48:58] Recieved 3 requests at tick 9900
+[2026-03-01 20:48:58] Recieved 11 requests at tick 9925
+[2026-03-01 20:48:58] Brought up server 108 at tick 9927
+[2026-03-01 20:48:58] Recieved 37 requests at tick 9950
+[2026-03-01 20:48:58] Recieved 25 requests at tick 9975
+[2026-03-01 20:48:58] Brought up server 109 at tick 9977
+[2026-03-01 20:48:58] Load balancer stopped
+[2026-03-01 20:48:58] Current server count: 110
+[2026-03-01 20:48:58] Inactive server count: 0
+[2026-03-01 20:48:58] Total time up: 10000
+[2026-03-01 20:48:58] Rejected requests: 1345
+[2026-03-01 20:48:58] Blocked IPs:  61.57.19.227 54.126.178.75 188.198.238.240
+[2026-03-01 20:48:58] Requests processed: 13367
+[2026-03-01 20:49:57] Load balancer started with 10 servers
+[2026-03-01 20:49:58] Recieved 1000 requests at tick 0
+[2026-03-01 20:49:59] Minimum time to take down server: 3000
+[2026-03-01 20:49:59] Maximum time to bring up server: 7000
+[2026-03-01 20:49:59] Total queued time of: 2578
+[2026-03-01 20:49:59] Took down server 0 at tick 0
+[2026-03-01 20:49:59] Recieved 7 requests at tick 25
+[2026-03-01 20:49:59] Recieved 19 requests at tick 50
+[2026-03-01 20:49:59] Took down server 3 at tick 50
+[2026-03-01 20:49:59] Recieved 23 requests at tick 75
+[2026-03-01 20:49:59] Recieved 18 requests at tick 100
+[2026-03-01 20:49:59] Recieved 14 requests at tick 125
+[2026-03-01 20:49:59] Recieved 16 requests at tick 150
+[2026-03-01 20:49:59] Recieved 6 requests at tick 175
+[2026-03-01 20:49:59] Recieved 1 requests at tick 200
+[2026-03-01 20:49:59] Recieved 16 requests at tick 225
+[2026-03-01 20:49:59] Recieved 4 requests at tick 250
+[2026-03-01 20:49:59] Recieved 3 requests at tick 275
+[2026-03-01 20:49:59] Recieved 13 requests at tick 300
+[2026-03-01 20:49:59] Recieved 13 requests at tick 325
+[2026-03-01 20:49:59] Recieved 10 requests at tick 350
+[2026-03-01 20:49:59] Recieved 19 requests at tick 375
+[2026-03-01 20:49:59] Recieved 10 requests at tick 400
+[2026-03-01 20:49:59] Recieved 5 requests at tick 425
+[2026-03-01 20:49:59] Recieved 23 requests at tick 450
+[2026-03-01 20:49:59] Recieved 15 requests at tick 475
+[2026-03-01 20:49:59] Recieved 16 requests at tick 500
+[2026-03-01 20:49:59] Recieved 17 requests at tick 525
+[2026-03-01 20:49:59] Recieved 13 requests at tick 550
+[2026-03-01 20:49:59] Recieved 12 requests at tick 575
+[2026-03-01 20:49:59] Recieved 7 requests at tick 600
+[2026-03-01 20:49:59] Recieved 2 requests at tick 625
+[2026-03-01 20:49:59] Recieved 12 requests at tick 650
+[2026-03-01 20:49:59] Recieved 5 requests at tick 675
+[2026-03-01 20:49:59] Recieved 25 requests at tick 700
+[2026-03-01 20:49:59] Recieved 3 requests at tick 725
+[2026-03-01 20:49:59] Recieved 22 requests at tick 750
+[2026-03-01 20:49:59] Recieved 6 requests at tick 775
+[2026-03-01 20:49:59] Recieved 5 requests at tick 800
+[2026-03-01 20:49:59] Recieved 15 requests at tick 825
+[2026-03-01 20:49:59] Recieved 6 requests at tick 850
+[2026-03-01 20:49:59] Recieved 0 requests at tick 875
+[2026-03-01 20:49:59] Recieved 11 requests at tick 900
+[2026-03-01 20:49:59] Recieved 18 requests at tick 925
+[2026-03-01 20:49:59] Recieved 15 requests at tick 950
+[2026-03-01 20:49:59] Recieved 0 requests at tick 975
+[2026-03-01 20:49:59] Recieved 0 requests at tick 1000
+[2026-03-01 20:49:59] Recieved 500 requests at tick 1025
+[2026-03-01 20:49:59] Recieved 24 requests at tick 1050
+[2026-03-01 20:49:59] Recieved 3 requests at tick 1075
+[2026-03-01 20:49:59] Recieved 8 requests at tick 1100
+[2026-03-01 20:49:59] Recieved 14 requests at tick 1125
+[2026-03-01 20:49:59] Recieved 8 requests at tick 1150
+[2026-03-01 20:49:59] Recieved 11 requests at tick 1175
+[2026-03-01 20:49:59] Recieved 5 requests at tick 1200
+[2026-03-01 20:49:59] Recieved 2 requests at tick 1225
+[2026-03-01 20:49:59] Recieved 7 requests at tick 1250
+[2026-03-01 20:49:59] Recieved 19 requests at tick 1275
+[2026-03-01 20:49:59] Recieved 19 requests at tick 1300
+[2026-03-01 20:49:59] Recieved 14 requests at tick 1325
+[2026-03-01 20:49:59] Recieved 20 requests at tick 1350
+[2026-03-01 20:49:59] Recieved 23 requests at tick 1375
+[2026-03-01 20:49:59] Recieved 5 requests at tick 1400
+[2026-03-01 20:49:59] Recieved 17 requests at tick 1425
+[2026-03-01 20:49:59] Recieved 10 requests at tick 1450
+[2026-03-01 20:49:59] Brought up server 8 at tick 1466
+[2026-03-01 20:49:59] Recieved 22 requests at tick 1475
+[2026-03-01 20:49:59] Recieved 8 requests at tick 1500
+[2026-03-01 20:49:59] Recieved 6 requests at tick 1525
+[2026-03-01 20:49:59] Recieved 25 requests at tick 1550
+[2026-03-01 20:49:59] Recieved 3 requests at tick 1575
+[2026-03-01 20:49:59] Recieved 500 requests at tick 1600
+[2026-03-01 20:49:59] Brought up server 9 at tick 1600
+[2026-03-01 20:49:59] Recieved 4 requests at tick 1625
+[2026-03-01 20:49:59] Recieved 19 requests at tick 1650
+[2026-03-01 20:49:59] Brought up server 10 at tick 1654
+[2026-03-01 20:49:59] Recieved 16 requests at tick 1675
+[2026-03-01 20:49:59] Recieved 14 requests at tick 1700
+[2026-03-01 20:49:59] Recieved 21 requests at tick 1725
+[2026-03-01 20:49:59] Recieved 22 requests at tick 1750
+[2026-03-01 20:49:59] Recieved 25 requests at tick 1775
+[2026-03-01 20:49:59] Recieved 9 requests at tick 1800
+[2026-03-01 20:49:59] Brought up server 11 at tick 1800
+[2026-03-01 20:49:59] Recieved 18 requests at tick 1825
+[2026-03-01 20:49:59] Recieved 12 requests at tick 1850
+[2026-03-01 20:49:59] Recieved 1 requests at tick 1875
+[2026-03-01 20:49:59] Recieved 9 requests at tick 1900
+[2026-03-01 20:49:59] Recieved 500 requests at tick 1925
+[2026-03-01 20:49:59] Blocked IP 236.0.10.244 for making too many requests at tick 1925
+[2026-03-01 20:49:59] Recieved 5 requests at tick 1950
+[2026-03-01 20:49:59] Recieved 8 requests at tick 1975
+[2026-03-01 20:49:59] Recieved 2 requests at tick 2000
+[2026-03-01 20:49:59] Recieved 18 requests at tick 2025
+[2026-03-01 20:49:59] Recieved 9 requests at tick 2050
+[2026-03-01 20:49:59] Recieved 18 requests at tick 2075
+[2026-03-01 20:49:59] Brought up server 12 at tick 2094
+[2026-03-01 20:49:59] Recieved 18 requests at tick 2100
+[2026-03-01 20:49:59] Recieved 17 requests at tick 2125
+[2026-03-01 20:49:59] Recieved 10 requests at tick 2150
+[2026-03-01 20:49:59] Recieved 21 requests at tick 2175
+[2026-03-01 20:49:59] Recieved 13 requests at tick 2200
+[2026-03-01 20:49:59] Recieved 8 requests at tick 2225
+[2026-03-01 20:49:59] Recieved 10 requests at tick 2250
+[2026-03-01 20:49:59] Recieved 21 requests at tick 2275
+[2026-03-01 20:49:59] Recieved 16 requests at tick 2300
+[2026-03-01 20:49:59] Recieved 18 requests at tick 2325
+[2026-03-01 20:49:59] Recieved 24 requests at tick 2350
+[2026-03-01 20:49:59] Recieved 19 requests at tick 2375
+[2026-03-01 20:49:59] Recieved 22 requests at tick 2400
+[2026-03-01 20:49:59] Recieved 20 requests at tick 2425
+[2026-03-01 20:49:59] Brought up server 13 at tick 2436
+[2026-03-01 20:49:59] Recieved 15 requests at tick 2450
+[2026-03-01 20:49:59] Recieved 11 requests at tick 2475
+[2026-03-01 20:49:59] Recieved 6 requests at tick 2500
+[2026-03-01 20:49:59] Recieved 1 requests at tick 2525
+[2026-03-01 20:49:59] Recieved 20 requests at tick 2550
+[2026-03-01 20:49:59] Recieved 8 requests at tick 2575
+[2026-03-01 20:49:59] Brought up server 14 at tick 2599
+[2026-03-01 20:49:59] Recieved 20 requests at tick 2600
+[2026-03-01 20:49:59] Recieved 20 requests at tick 2625
+[2026-03-01 20:49:59] Recieved 16 requests at tick 2650
+[2026-03-01 20:49:59] Recieved 23 requests at tick 2675
+[2026-03-01 20:49:59] Recieved 22 requests at tick 2700
+[2026-03-01 20:49:59] Recieved 15 requests at tick 2725
+[2026-03-01 20:49:59] Recieved 14 requests at tick 2750
+[2026-03-01 20:49:59] Recieved 9 requests at tick 2775
+[2026-03-01 20:49:59] Recieved 24 requests at tick 2800
+[2026-03-01 20:49:59] Recieved 15 requests at tick 2825
+[2026-03-01 20:49:59] Recieved 10 requests at tick 2850
+[2026-03-01 20:49:59] Recieved 2 requests at tick 2875
+[2026-03-01 20:49:59] Recieved 14 requests at tick 2900
+[2026-03-01 20:49:59] Recieved 17 requests at tick 2925
+[2026-03-01 20:49:59] Brought up server 15 at tick 2927
+[2026-03-01 20:49:59] Recieved 17 requests at tick 2950
+[2026-03-01 20:49:59] Recieved 24 requests at tick 2975
+[2026-03-01 20:49:59] Recieved 8 requests at tick 3000
+[2026-03-01 20:49:59] Recieved 21 requests at tick 3025
+[2026-03-01 20:49:59] Recieved 4 requests at tick 3050
+[2026-03-01 20:49:59] Recieved 10 requests at tick 3075
+[2026-03-01 20:49:59] Recieved 23 requests at tick 3100
+[2026-03-01 20:49:59] Recieved 17 requests at tick 3125
+[2026-03-01 20:49:59] Recieved 10 requests at tick 3150
+[2026-03-01 20:49:59] Recieved 11 requests at tick 3175
+[2026-03-01 20:49:59] Recieved 17 requests at tick 3200
+[2026-03-01 20:49:59] Recieved 12 requests at tick 3225
+[2026-03-01 20:49:59] Brought up server 16 at tick 3225
+[2026-03-01 20:49:59] Recieved 2 requests at tick 3250
+[2026-03-01 20:49:59] Recieved 2 requests at tick 3275
+[2026-03-01 20:49:59] Recieved 17 requests at tick 3300
+[2026-03-01 20:49:59] Recieved 9 requests at tick 3325
+[2026-03-01 20:49:59] Recieved 20 requests at tick 3350
+[2026-03-01 20:49:59] Recieved 8 requests at tick 3375
+[2026-03-01 20:49:59] Recieved 4 requests at tick 3400
+[2026-03-01 20:49:59] Recieved 16 requests at tick 3425
+[2026-03-01 20:49:59] Recieved 11 requests at tick 3450
+[2026-03-01 20:49:59] Recieved 5 requests at tick 3475
+[2026-03-01 20:49:59] Recieved 500 requests at tick 3500
+[2026-03-01 20:49:59] Brought up server 17 at tick 3500
+[2026-03-01 20:49:59] Recieved 20 requests at tick 3525
+[2026-03-01 20:49:59] Recieved 12 requests at tick 3550
+[2026-03-01 20:49:59] Brought up server 18 at tick 3553
+[2026-03-01 20:49:59] Recieved 5 requests at tick 3575
+[2026-03-01 20:49:59] Recieved 10 requests at tick 3600
+[2026-03-01 20:49:59] Recieved 500 requests at tick 3625
+[2026-03-01 20:49:59] Blocked IP 71.121.141.22 for making too many requests at tick 3625
+[2026-03-01 20:49:59] Brought up server 19 at tick 3626
+[2026-03-01 20:49:59] Recieved 7 requests at tick 3650
+[2026-03-01 20:49:59] Recieved 19 requests at tick 3675
+[2026-03-01 20:49:59] Recieved 16 requests at tick 3700
+[2026-03-01 20:49:59] Brought up server 20 at tick 3700
+[2026-03-01 20:49:59] Recieved 12 requests at tick 3725
+[2026-03-01 20:49:59] Recieved 18 requests at tick 3750
+[2026-03-01 20:49:59] Brought up server 21 at tick 3750
+[2026-03-01 20:49:59] Recieved 21 requests at tick 3775
+[2026-03-01 20:49:59] Recieved 8 requests at tick 3800
+[2026-03-01 20:49:59] Recieved 21 requests at tick 3825
+[2026-03-01 20:49:59] Recieved 23 requests at tick 3850
+[2026-03-01 20:49:59] Brought up server 22 at tick 3853
+[2026-03-01 20:49:59] Recieved 17 requests at tick 3875
+[2026-03-01 20:49:59] Recieved 11 requests at tick 3900
+[2026-03-01 20:49:59] Recieved 6 requests at tick 3925
+[2026-03-01 20:49:59] Recieved 6 requests at tick 3950
+[2026-03-01 20:49:59] Recieved 13 requests at tick 3975
+[2026-03-01 20:49:59] Brought up server 23 at tick 3975
+[2026-03-01 20:49:59] Recieved 1 requests at tick 4000
+[2026-03-01 20:49:59] Recieved 0 requests at tick 4025
+[2026-03-01 20:49:59] Recieved 1 requests at tick 4050
+[2026-03-01 20:49:59] Recieved 8 requests at tick 4075
+[2026-03-01 20:49:59] Recieved 17 requests at tick 4100
+[2026-03-01 20:49:59] Recieved 8 requests at tick 4125
+[2026-03-01 20:49:59] Recieved 12 requests at tick 4150
+[2026-03-01 20:49:59] Recieved 12 requests at tick 4175
+[2026-03-01 20:49:59] Recieved 24 requests at tick 4200
+[2026-03-01 20:49:59] Recieved 22 requests at tick 4225
+[2026-03-01 20:49:59] Recieved 0 requests at tick 4250
+[2026-03-01 20:49:59] Recieved 7 requests at tick 4275
+[2026-03-01 20:49:59] Recieved 5 requests at tick 4300
+[2026-03-01 20:49:59] Brought up server 24 at tick 4300
+[2026-03-01 20:49:59] Recieved 17 requests at tick 4325
+[2026-03-01 20:49:59] Recieved 13 requests at tick 4350
+[2026-03-01 20:49:59] Recieved 7 requests at tick 4375
+[2026-03-01 20:49:59] Recieved 5 requests at tick 4400
+[2026-03-01 20:49:59] Recieved 1 requests at tick 4425
+[2026-03-01 20:49:59] Recieved 15 requests at tick 4450
+[2026-03-01 20:49:59] Recieved 23 requests at tick 4475
+[2026-03-01 20:49:59] Recieved 500 requests at tick 4500
+[2026-03-01 20:49:59] Brought up server 25 at tick 4500
+[2026-03-01 20:49:59] Recieved 2 requests at tick 4525
+[2026-03-01 20:49:59] Recieved 9 requests at tick 4550
+[2026-03-01 20:49:59] Brought up server 26 at tick 4550
+[2026-03-01 20:49:59] Recieved 10 requests at tick 4575
+[2026-03-01 20:49:59] Recieved 0 requests at tick 4600
+[2026-03-01 20:49:59] Brought up server 27 at tick 4619
+[2026-03-01 20:49:59] Recieved 15 requests at tick 4625
+[2026-03-01 20:49:59] Recieved 13 requests at tick 4650
+[2026-03-01 20:49:59] Recieved 24 requests at tick 4675
+[2026-03-01 20:49:59] Brought up server 28 at tick 4675
+[2026-03-01 20:49:59] Recieved 22 requests at tick 4700
+[2026-03-01 20:49:59] Recieved 16 requests at tick 4725
+[2026-03-01 20:49:59] Recieved 3 requests at tick 4750
+[2026-03-01 20:49:59] Recieved 14 requests at tick 4775
+[2026-03-01 20:49:59] Recieved 500 requests at tick 4800
+[2026-03-01 20:49:59] Blocked IP 152.203.63.120 for making too many requests at tick 4800
+[2026-03-01 20:49:59] Brought up server 29 at tick 4816
+[2026-03-01 20:49:59] Recieved 22 requests at tick 4825
+[2026-03-01 20:49:59] Recieved 0 requests at tick 4850
+[2026-03-01 20:49:59] Recieved 24 requests at tick 4875
+[2026-03-01 20:49:59] Recieved 11 requests at tick 4900
+[2026-03-01 20:49:59] Recieved 18 requests at tick 4925
+[2026-03-01 20:49:59] Brought up server 30 at tick 4938
+[2026-03-01 20:49:59] Recieved 0 requests at tick 4950
+[2026-03-01 20:49:59] Recieved 17 requests at tick 4975
+[2026-03-01 20:49:59] Recieved 12 requests at tick 5000
+[2026-03-01 20:49:59] Brought up server 31 at tick 5000
+[2026-03-01 20:49:59] Recieved 16 requests at tick 5025
+[2026-03-01 20:49:59] Recieved 6 requests at tick 5050
+[2026-03-01 20:49:59] Brought up server 32 at tick 5063
+[2026-03-01 20:49:59] Recieved 22 requests at tick 5075
+[2026-03-01 20:49:59] Recieved 10 requests at tick 5100
+[2026-03-01 20:49:59] Brought up server 33 at tick 5113
+[2026-03-01 20:49:59] Recieved 19 requests at tick 5125
+[2026-03-01 20:49:59] Recieved 13 requests at tick 5150
+[2026-03-01 20:49:59] Recieved 15 requests at tick 5175
+[2026-03-01 20:49:59] Recieved 15 requests at tick 5200
+[2026-03-01 20:49:59] Recieved 20 requests at tick 5225
+[2026-03-01 20:49:59] Recieved 21 requests at tick 5250
+[2026-03-01 20:49:59] Brought up server 34 at tick 5251
+[2026-03-01 20:49:59] Recieved 22 requests at tick 5275
+[2026-03-01 20:49:59] Recieved 19 requests at tick 5300
+[2026-03-01 20:49:59] Recieved 25 requests at tick 5325
+[2026-03-01 20:49:59] Brought up server 35 at tick 5328
+[2026-03-01 20:49:59] Recieved 7 requests at tick 5350
+[2026-03-01 20:49:59] Recieved 17 requests at tick 5375
+[2026-03-01 20:49:59] Brought up server 36 at tick 5378
+[2026-03-01 20:49:59] Recieved 4 requests at tick 5400
+[2026-03-01 20:49:59] Recieved 11 requests at tick 5425
+[2026-03-01 20:49:59] Took down server 15 at tick 5428
+[2026-03-01 20:49:59] Recieved 22 requests at tick 5450
+[2026-03-01 20:49:59] Recieved 22 requests at tick 5475
+[2026-03-01 20:49:59] Recieved 22 requests at tick 5500
+[2026-03-01 20:49:59] Brought up server 36 at tick 5500
+[2026-03-01 20:49:59] Recieved 9 requests at tick 5525
+[2026-03-01 20:49:59] Recieved 19 requests at tick 5550
+[2026-03-01 20:49:59] Brought up server 37 at tick 5551
+[2026-03-01 20:49:59] Recieved 2 requests at tick 5575
+[2026-03-01 20:49:59] Recieved 20 requests at tick 5600
+[2026-03-01 20:49:59] Brought up server 38 at tick 5601
+[2026-03-01 20:49:59] Recieved 2 requests at tick 5625
+[2026-03-01 20:49:59] Recieved 500 requests at tick 5650
+[2026-03-01 20:49:59] Brought up server 39 at tick 5672
+[2026-03-01 20:49:59] Recieved 22 requests at tick 5675
+[2026-03-01 20:49:59] Recieved 6 requests at tick 5700
+[2026-03-01 20:49:59] Recieved 23 requests at tick 5725
+[2026-03-01 20:49:59] Brought up server 40 at tick 5725
+[2026-03-01 20:49:59] Recieved 15 requests at tick 5750
+[2026-03-01 20:49:59] Recieved 1 requests at tick 5775
+[2026-03-01 20:49:59] Brought up server 41 at tick 5775
+[2026-03-01 20:49:59] Recieved 2 requests at tick 5800
+[2026-03-01 20:49:59] Recieved 500 requests at tick 5825
+[2026-03-01 20:49:59] Recieved 13 requests at tick 5850
+[2026-03-01 20:49:59] Brought up server 42 at tick 5851
+[2026-03-01 20:49:59] Recieved 4 requests at tick 5875
+[2026-03-01 20:49:59] Recieved 1 requests at tick 5900
+[2026-03-01 20:49:59] Brought up server 43 at tick 5908
+[2026-03-01 20:49:59] Recieved 18 requests at tick 5925
+[2026-03-01 20:49:59] Recieved 24 requests at tick 5950
+[2026-03-01 20:49:59] Recieved 11 requests at tick 5975
+[2026-03-01 20:49:59] Recieved 10 requests at tick 6000
+[2026-03-01 20:49:59] Recieved 15 requests at tick 6025
+[2026-03-01 20:49:59] Recieved 9 requests at tick 6050
+[2026-03-01 20:49:59] Recieved 10 requests at tick 6075
+[2026-03-01 20:49:59] Recieved 5 requests at tick 6100
+[2026-03-01 20:49:59] Recieved 9 requests at tick 6125
+[2026-03-01 20:49:59] Recieved 18 requests at tick 6150
+[2026-03-01 20:49:59] Recieved 12 requests at tick 6175
+[2026-03-01 20:49:59] Recieved 24 requests at tick 6200
+[2026-03-01 20:49:59] Brought up server 44 at tick 6200
+[2026-03-01 20:49:59] Recieved 17 requests at tick 6225
+[2026-03-01 20:49:59] Recieved 13 requests at tick 6250
+[2026-03-01 20:49:59] Took down server 25 at tick 6250
+[2026-03-01 20:49:59] Recieved 11 requests at tick 6275
+[2026-03-01 20:49:59] Recieved 1 requests at tick 6300
+[2026-03-01 20:49:59] Recieved 24 requests at tick 6325
+[2026-03-01 20:49:59] Brought up server 44 at tick 6329
+[2026-03-01 20:49:59] Recieved 1 requests at tick 6350
+[2026-03-01 20:49:59] Recieved 3 requests at tick 6375
+[2026-03-01 20:49:59] Brought up server 45 at tick 6379
+[2026-03-01 20:49:59] Recieved 3 requests at tick 6400
+[2026-03-01 20:49:59] Recieved 500 requests at tick 6425
+[2026-03-01 20:49:59] Recieved 2 requests at tick 6450
+[2026-03-01 20:49:59] Recieved 11 requests at tick 6475
+[2026-03-01 20:49:59] Brought up server 46 at tick 6479
+[2026-03-01 20:49:59] Recieved 1 requests at tick 6500
+[2026-03-01 20:49:59] Recieved 500 requests at tick 6525
+[2026-03-01 20:49:59] Brought up server 47 at tick 6529
+[2026-03-01 20:49:59] Recieved 1 requests at tick 6550
+[2026-03-01 20:49:59] Recieved 0 requests at tick 6575
+[2026-03-01 20:49:59] Brought up server 48 at tick 6580
+[2026-03-01 20:49:59] Recieved 1 requests at tick 6600
+[2026-03-01 20:49:59] Recieved 8 requests at tick 6625
+[2026-03-01 20:49:59] Brought up server 49 at tick 6630
+[2026-03-01 20:49:59] Recieved 24 requests at tick 6650
+[2026-03-01 20:49:59] Recieved 0 requests at tick 6675
+[2026-03-01 20:49:59] Recieved 25 requests at tick 6700
+[2026-03-01 20:49:59] Recieved 1 requests at tick 6725
+[2026-03-01 20:49:59] Recieved 25 requests at tick 6750
+[2026-03-01 20:49:59] Recieved 19 requests at tick 6775
+[2026-03-01 20:49:59] Recieved 12 requests at tick 6800
+[2026-03-01 20:49:59] Recieved 12 requests at tick 6825
+[2026-03-01 20:49:59] Brought up server 50 at tick 6835
+[2026-03-01 20:49:59] Recieved 0 requests at tick 6850
+[2026-03-01 20:49:59] Recieved 17 requests at tick 6875
+[2026-03-01 20:49:59] Recieved 15 requests at tick 6900
+[2026-03-01 20:49:59] Brought up server 51 at tick 6902
+[2026-03-01 20:49:59] Recieved 9 requests at tick 6925
+[2026-03-01 20:49:59] Recieved 3 requests at tick 6950
+[2026-03-01 20:49:59] Took down server 22 at tick 6952
+[2026-03-01 20:49:59] Recieved 16 requests at tick 6975
+[2026-03-01 20:49:59] Recieved 22 requests at tick 7000
+[2026-03-01 20:49:59] Recieved 9 requests at tick 7025
+[2026-03-01 20:49:59] Recieved 25 requests at tick 7050
+[2026-03-01 20:49:59] Recieved 9 requests at tick 7075
+[2026-03-01 20:49:59] Recieved 22 requests at tick 7100
+[2026-03-01 20:49:59] Brought up server 51 at tick 7124
+[2026-03-01 20:49:59] Recieved 500 requests at tick 7125
+[2026-03-01 20:49:59] Recieved 25 requests at tick 7150
+[2026-03-01 20:49:59] Recieved 20 requests at tick 7175
+[2026-03-01 20:49:59] Recieved 9 requests at tick 7200
+[2026-03-01 20:49:59] Recieved 4 requests at tick 7225
+[2026-03-01 20:49:59] Recieved 10 requests at tick 7250
+[2026-03-01 20:49:59] Brought up server 52 at tick 7270
+[2026-03-01 20:49:59] Recieved 3 requests at tick 7275
+[2026-03-01 20:49:59] Recieved 6 requests at tick 7300
+[2026-03-01 20:49:59] Recieved 15 requests at tick 7325
+[2026-03-01 20:49:59] Brought up server 53 at tick 7325
+[2026-03-01 20:49:59] Recieved 14 requests at tick 7350
+[2026-03-01 20:49:59] Recieved 18 requests at tick 7375
+[2026-03-01 20:49:59] Brought up server 54 at tick 7376
+[2026-03-01 20:49:59] Recieved 2 requests at tick 7400
+[2026-03-01 20:49:59] Recieved 0 requests at tick 7425
+[2026-03-01 20:49:59] Took down server 20 at tick 7426
+[2026-03-01 20:49:59] Recieved 500 requests at tick 7450
+[2026-03-01 20:49:59] Recieved 14 requests at tick 7475
+[2026-03-01 20:49:59] Recieved 7 requests at tick 7500
+[2026-03-01 20:49:59] Recieved 23 requests at tick 7525
+[2026-03-01 20:49:59] Brought up server 54 at tick 7525
+[2026-03-01 20:49:59] Recieved 5 requests at tick 7550
+[2026-03-01 20:49:59] Recieved 9 requests at tick 7575
+[2026-03-01 20:49:59] Recieved 14 requests at tick 7600
+[2026-03-01 20:49:59] Brought up server 55 at tick 7600
+[2026-03-01 20:49:59] Recieved 12 requests at tick 7625
+[2026-03-01 20:49:59] Recieved 18 requests at tick 7650
+[2026-03-01 20:49:59] Brought up server 56 at tick 7651
+[2026-03-01 20:49:59] Recieved 14 requests at tick 7675
+[2026-03-01 20:49:59] Recieved 21 requests at tick 7700
+[2026-03-01 20:49:59] Brought up server 57 at tick 7703
+[2026-03-01 20:49:59] Recieved 14 requests at tick 7725
+[2026-03-01 20:49:59] Recieved 6 requests at tick 7750
+[2026-03-01 20:49:59] Took down server 12 at tick 7759
+[2026-03-01 20:49:59] Recieved 9 requests at tick 7775
+[2026-03-01 20:49:59] Recieved 16 requests at tick 7800
+[2026-03-01 20:49:59] Brought up server 57 at tick 7812
+[2026-03-01 20:49:59] Recieved 23 requests at tick 7825
+[2026-03-01 20:49:59] Recieved 0 requests at tick 7850
+[2026-03-01 20:49:59] Recieved 15 requests at tick 7875
+[2026-03-01 20:49:59] Brought up server 58 at tick 7877
+[2026-03-01 20:49:59] Recieved 9 requests at tick 7900
+[2026-03-01 20:49:59] Recieved 22 requests at tick 7925
+[2026-03-01 20:49:59] Brought up server 59 at tick 7928
+[2026-03-01 20:49:59] Recieved 22 requests at tick 7950
+[2026-03-01 20:49:59] Recieved 20 requests at tick 7975
+[2026-03-01 20:49:59] Brought up server 60 at tick 7983
+[2026-03-01 20:49:59] Recieved 17 requests at tick 8000
+[2026-03-01 20:49:59] Recieved 0 requests at tick 8025
+[2026-03-01 20:49:59] Took down server 47 at tick 8046
+[2026-03-01 20:49:59] Recieved 23 requests at tick 8050
+[2026-03-01 20:49:59] Recieved 9 requests at tick 8075
+[2026-03-01 20:49:59] Recieved 13 requests at tick 8100
+[2026-03-01 20:49:59] Brought up server 60 at tick 8103
+[2026-03-01 20:49:59] Recieved 23 requests at tick 8125
+[2026-03-01 20:49:59] Recieved 12 requests at tick 8150
+[2026-03-01 20:49:59] Recieved 8 requests at tick 8175
+[2026-03-01 20:49:59] Brought up server 61 at tick 8175
+[2026-03-01 20:49:59] Recieved 5 requests at tick 8200
+[2026-03-01 20:49:59] Recieved 500 requests at tick 8225
+[2026-03-01 20:49:59] Recieved 2 requests at tick 8250
+[2026-03-01 20:49:59] Brought up server 62 at tick 8255
+[2026-03-01 20:49:59] Recieved 1 requests at tick 8275
+[2026-03-01 20:49:59] Recieved 22 requests at tick 8300
+[2026-03-01 20:49:59] Brought up server 63 at tick 8305
+[2026-03-01 20:49:59] Recieved 7 requests at tick 8325
+[2026-03-01 20:49:59] Recieved 5 requests at tick 8350
+[2026-03-01 20:49:59] Brought up server 64 at tick 8355
+[2026-03-01 20:49:59] Recieved 0 requests at tick 8375
+[2026-03-01 20:49:59] Recieved 7 requests at tick 8400
+[2026-03-01 20:49:59] Brought up server 65 at tick 8405
+[2026-03-01 20:49:59] Recieved 13 requests at tick 8425
+[2026-03-01 20:49:59] Recieved 17 requests at tick 8450
+[2026-03-01 20:49:59] Brought up server 66 at tick 8464
+[2026-03-01 20:49:59] Recieved 11 requests at tick 8475
+[2026-03-01 20:49:59] Recieved 24 requests at tick 8500
+[2026-03-01 20:49:59] Recieved 6 requests at tick 8525
+[2026-03-01 20:49:59] Brought up server 67 at tick 8527
+[2026-03-01 20:49:59] Recieved 8 requests at tick 8550
+[2026-03-01 20:49:59] Recieved 23 requests at tick 8575
+[2026-03-01 20:49:59] Recieved 23 requests at tick 8600
+[2026-03-01 20:49:59] Brought up server 68 at tick 8600
+[2026-03-01 20:49:59] Recieved 0 requests at tick 8625
+[2026-03-01 20:49:59] Recieved 10 requests at tick 8650
+[2026-03-01 20:49:59] Brought up server 69 at tick 8650
+[2026-03-01 20:49:59] Recieved 11 requests at tick 8675
+[2026-03-01 20:49:59] Recieved 17 requests at tick 8700
+[2026-03-01 20:49:59] Brought up server 70 at tick 8702
+[2026-03-01 20:49:59] Recieved 20 requests at tick 8725
+[2026-03-01 20:49:59] Recieved 17 requests at tick 8750
+[2026-03-01 20:49:59] Brought up server 71 at tick 8752
+[2026-03-01 20:49:59] Recieved 22 requests at tick 8775
+[2026-03-01 20:49:59] Recieved 12 requests at tick 8800
+[2026-03-01 20:49:59] Recieved 18 requests at tick 8825
+[2026-03-01 20:49:59] Brought up server 72 at tick 8832
+[2026-03-01 20:49:59] Recieved 8 requests at tick 8850
+[2026-03-01 20:49:59] Recieved 6 requests at tick 8875
+[2026-03-01 20:49:59] Brought up server 73 at tick 8882
+[2026-03-01 20:49:59] Recieved 15 requests at tick 8900
+[2026-03-01 20:49:59] Recieved 22 requests at tick 8925
+[2026-03-01 20:49:59] Brought up server 74 at tick 8932
+[2026-03-01 20:49:59] Recieved 21 requests at tick 8950
+[2026-03-01 20:49:59] Recieved 8 requests at tick 8975
+[2026-03-01 20:49:59] Brought up server 75 at tick 8982
+[2026-03-01 20:49:59] Recieved 4 requests at tick 9000
+[2026-03-01 20:49:59] Recieved 7 requests at tick 9025
+[2026-03-01 20:49:59] Brought up server 76 at tick 9032
+[2026-03-01 20:49:59] Recieved 20 requests at tick 9050
+[2026-03-01 20:49:59] Recieved 13 requests at tick 9075
+[2026-03-01 20:49:59] Brought up server 77 at tick 9082
+[2026-03-01 20:49:59] Recieved 7 requests at tick 9100
+[2026-03-01 20:49:59] Recieved 10 requests at tick 9125
+[2026-03-01 20:49:59] Brought up server 78 at tick 9132
+[2026-03-01 20:49:59] Recieved 5 requests at tick 9150
+[2026-03-01 20:49:59] Recieved 5 requests at tick 9175
+[2026-03-01 20:49:59] Brought up server 79 at tick 9182
+[2026-03-01 20:49:59] Recieved 25 requests at tick 9200
+[2026-03-01 20:49:59] Recieved 21 requests at tick 9225
+[2026-03-01 20:49:59] Brought up server 80 at tick 9232
+[2026-03-01 20:49:59] Recieved 20 requests at tick 9250
+[2026-03-01 20:49:59] Recieved 6 requests at tick 9275
+[2026-03-01 20:49:59] Brought up server 81 at tick 9282
+[2026-03-01 20:49:59] Recieved 9 requests at tick 9300
+[2026-03-01 20:49:59] Recieved 0 requests at tick 9325
+[2026-03-01 20:49:59] Brought up server 82 at tick 9332
+[2026-03-01 20:49:59] Recieved 20 requests at tick 9350
+[2026-03-01 20:49:59] Recieved 14 requests at tick 9375
+[2026-03-01 20:49:59] Brought up server 83 at tick 9382
+[2026-03-01 20:49:59] Recieved 2 requests at tick 9400
+[2026-03-01 20:49:59] Recieved 0 requests at tick 9425
+[2026-03-01 20:49:59] Brought up server 84 at tick 9432
+[2026-03-01 20:49:59] Recieved 500 requests at tick 9450
+[2026-03-01 20:49:59] Blocked IP 52.24.81.16 for making too many requests at tick 9450
+[2026-03-01 20:49:59] Recieved 15 requests at tick 9475
+[2026-03-01 20:49:59] Brought up server 85 at tick 9482
+[2026-03-01 20:49:59] Recieved 500 requests at tick 9500
+[2026-03-01 20:49:59] Recieved 20 requests at tick 9525
+[2026-03-01 20:49:59] Brought up server 86 at tick 9534
+[2026-03-01 20:49:59] Recieved 15 requests at tick 9550
+[2026-03-01 20:49:59] Recieved 9 requests at tick 9575
+[2026-03-01 20:49:59] Recieved 16 requests at tick 9600
+[2026-03-01 20:49:59] Brought up server 87 at tick 9620
+[2026-03-01 20:49:59] Recieved 24 requests at tick 9625
+[2026-03-01 20:49:59] Recieved 21 requests at tick 9650
+[2026-03-01 20:49:59] Brought up server 88 at tick 9670
+[2026-03-01 20:49:59] Recieved 8 requests at tick 9675
+[2026-03-01 20:49:59] Recieved 2 requests at tick 9700
+[2026-03-01 20:49:59] Brought up server 89 at tick 9720
+[2026-03-01 20:49:59] Recieved 25 requests at tick 9725
+[2026-03-01 20:49:59] Recieved 22 requests at tick 9750
+[2026-03-01 20:49:59] Brought up server 90 at tick 9770
+[2026-03-01 20:49:59] Recieved 15 requests at tick 9775
+[2026-03-01 20:49:59] Recieved 25 requests at tick 9800
+[2026-03-01 20:49:59] Brought up server 91 at tick 9820
+[2026-03-01 20:49:59] Recieved 5 requests at tick 9825
+[2026-03-01 20:49:59] Recieved 3 requests at tick 9850
+[2026-03-01 20:49:59] Brought up server 92 at tick 9870
+[2026-03-01 20:49:59] Recieved 3 requests at tick 9875
+[2026-03-01 20:49:59] Recieved 22 requests at tick 9900
+[2026-03-01 20:49:59] Brought up server 93 at tick 9920
+[2026-03-01 20:49:59] Recieved 24 requests at tick 9925
+[2026-03-01 20:49:59] Recieved 13 requests at tick 9950
+[2026-03-01 20:49:59] Brought up server 94 at tick 9970
+[2026-03-01 20:49:59] Recieved 2 requests at tick 9975
+[2026-03-01 20:49:59] Load balancer stopped
+[2026-03-01 20:49:59] Current server count: 95
+[2026-03-01 20:49:59] Inactive server count: 0
+[2026-03-01 20:49:59] Total time up: 10000
+[2026-03-01 20:49:59] Rejected requests: 1797
+[2026-03-01 20:49:59] Blocked IPs:  236.0.10.244 71.121.141.22 152.203.63.120 52.24.81.16
+[2026-03-01 20:49:59] Requests processed: 11996
+[2026-03-01 20:50:22] Load balancer started with 10 servers
+[2026-03-01 20:50:23] Recieved 1000 requests at tick 0
+[2026-03-01 20:50:23] Minimum time to take down server: 3000
+[2026-03-01 20:50:23] Maximum time to bring up server: 7000
+[2026-03-01 20:50:23] Total queued time of: 2535
+[2026-03-01 20:50:23] Took down server 0 at tick 0
+[2026-03-01 20:50:23] Recieved 5 requests at tick 25
+[2026-03-01 20:50:23] Recieved 3 requests at tick 50
+[2026-03-01 20:50:23] Took down server 4 at tick 50
+[2026-03-01 20:50:23] Recieved 0 requests at tick 75
+[2026-03-01 20:50:23] Recieved 3 requests at tick 100
+[2026-03-01 20:50:23] Recieved 4 requests at tick 125
+[2026-03-01 20:50:23] Recieved 2 requests at tick 150
+[2026-03-01 20:50:23] Recieved 0 requests at tick 175
+[2026-03-01 20:50:23] Recieved 3 requests at tick 200
+[2026-03-01 20:50:23] Recieved 4 requests at tick 225
+[2026-03-01 20:50:23] Recieved 1 requests at tick 250
+[2026-03-01 20:50:23] Recieved 0 requests at tick 275
+[2026-03-01 20:50:23] Recieved 2 requests at tick 300
+[2026-03-01 20:50:23] Recieved 2 requests at tick 325
+[2026-03-01 20:50:23] Recieved 5 requests at tick 350
+[2026-03-01 20:50:23] Recieved 3 requests at tick 375
+[2026-03-01 20:50:23] Recieved 3 requests at tick 400
+[2026-03-01 20:50:23] Recieved 4 requests at tick 425
+[2026-03-01 20:50:23] Recieved 1 requests at tick 450
+[2026-03-01 20:50:23] Recieved 1 requests at tick 475
+[2026-03-01 20:50:23] Recieved 4 requests at tick 500
+[2026-03-01 20:50:23] Recieved 2 requests at tick 525
+[2026-03-01 20:50:23] Recieved 0 requests at tick 550
+[2026-03-01 20:50:23] Recieved 0 requests at tick 575
+[2026-03-01 20:50:23] Recieved 3 requests at tick 600
+[2026-03-01 20:50:23] Recieved 2 requests at tick 625
+[2026-03-01 20:50:23] Recieved 3 requests at tick 650
+[2026-03-01 20:50:23] Recieved 2 requests at tick 675
+[2026-03-01 20:50:23] Recieved 4 requests at tick 700
+[2026-03-01 20:50:23] Recieved 4 requests at tick 725
+[2026-03-01 20:50:23] Recieved 3 requests at tick 750
+[2026-03-01 20:50:23] Recieved 4 requests at tick 775
+[2026-03-01 20:50:23] Recieved 2 requests at tick 800
+[2026-03-01 20:50:23] Recieved 0 requests at tick 825
+[2026-03-01 20:50:23] Recieved 3 requests at tick 850
+[2026-03-01 20:50:23] Recieved 4 requests at tick 875
+[2026-03-01 20:50:23] Recieved 4 requests at tick 900
+[2026-03-01 20:50:23] Recieved 2 requests at tick 925
+[2026-03-01 20:50:23] Recieved 1 requests at tick 950
+[2026-03-01 20:50:23] Recieved 4 requests at tick 975
+[2026-03-01 20:50:23] Recieved 4 requests at tick 1000
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1025
+[2026-03-01 20:50:23] Recieved 0 requests at tick 1050
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1075
+[2026-03-01 20:50:23] Recieved 4 requests at tick 1100
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1125
+[2026-03-01 20:50:23] Recieved 2 requests at tick 1150
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1175
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1200
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1225
+[2026-03-01 20:50:23] Recieved 2 requests at tick 1250
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1275
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1300
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1325
+[2026-03-01 20:50:23] Recieved 2 requests at tick 1350
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1375
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1400
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1425
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1450
+[2026-03-01 20:50:23] Recieved 2 requests at tick 1475
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1500
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1525
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1550
+[2026-03-01 20:50:23] Recieved 0 requests at tick 1575
+[2026-03-01 20:50:23] Recieved 4 requests at tick 1600
+[2026-03-01 20:50:23] Recieved 3 requests at tick 1625
+[2026-03-01 20:50:23] Recieved 0 requests at tick 1650
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1675
+[2026-03-01 20:50:23] Recieved 4 requests at tick 1700
+[2026-03-01 20:50:23] Recieved 1 requests at tick 1725
+[2026-03-01 20:50:23] Recieved 3 requests at tick 1750
+[2026-03-01 20:50:23] Recieved 4 requests at tick 1775
+[2026-03-01 20:50:23] Recieved 2 requests at tick 1800
+[2026-03-01 20:50:23] Recieved 3 requests at tick 1825
+[2026-03-01 20:50:23] Recieved 0 requests at tick 1850
+[2026-03-01 20:50:23] Recieved 500 requests at tick 1875
+[2026-03-01 20:50:23] Recieved 0 requests at tick 1900
+[2026-03-01 20:50:23] Recieved 5 requests at tick 1925
+[2026-03-01 20:50:23] Recieved 4 requests at tick 1950
+[2026-03-01 20:50:23] Recieved 0 requests at tick 1975
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2000
+[2026-03-01 20:50:23] Recieved 1 requests at tick 2025
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2050
+[2026-03-01 20:50:23] Recieved 500 requests at tick 2075
+[2026-03-01 20:50:23] Brought up server 8 at tick 2075
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2100
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2125
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2150
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2175
+[2026-03-01 20:50:23] Recieved 4 requests at tick 2200
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2225
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2250
+[2026-03-01 20:50:23] Brought up server 9 at tick 2272
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2275
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2300
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2325
+[2026-03-01 20:50:23] Recieved 1 requests at tick 2350
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2375
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2400
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2425
+[2026-03-01 20:50:23] Recieved 1 requests at tick 2450
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2475
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2500
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2525
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2550
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2575
+[2026-03-01 20:50:23] Recieved 4 requests at tick 2600
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2625
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2650
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2675
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2700
+[2026-03-01 20:50:23] Recieved 1 requests at tick 2725
+[2026-03-01 20:50:23] Recieved 3 requests at tick 2750
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2775
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2800
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2825
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2850
+[2026-03-01 20:50:23] Recieved 5 requests at tick 2875
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2900
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2925
+[2026-03-01 20:50:23] Recieved 0 requests at tick 2950
+[2026-03-01 20:50:23] Recieved 2 requests at tick 2975
+[2026-03-01 20:50:23] Recieved 1 requests at tick 3000
+[2026-03-01 20:50:23] Recieved 1 requests at tick 3025
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3050
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3075
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3100
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3125
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3150
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3175
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3200
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3225
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3250
+[2026-03-01 20:50:23] Recieved 1 requests at tick 3275
+[2026-03-01 20:50:23] Recieved 3 requests at tick 3300
+[2026-03-01 20:50:23] Recieved 500 requests at tick 3325
+[2026-03-01 20:50:23] Brought up server 10 at tick 3325
+[2026-03-01 20:50:23] Recieved 1 requests at tick 3350
+[2026-03-01 20:50:23] Recieved 4 requests at tick 3375
+[2026-03-01 20:50:23] Brought up server 11 at tick 3375
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3400
+[2026-03-01 20:50:23] Recieved 3 requests at tick 3425
+[2026-03-01 20:50:23] Brought up server 12 at tick 3425
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3450
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3475
+[2026-03-01 20:50:23] Recieved 4 requests at tick 3500
+[2026-03-01 20:50:23] Brought up server 13 at tick 3500
+[2026-03-01 20:50:23] Recieved 1 requests at tick 3525
+[2026-03-01 20:50:23] Recieved 3 requests at tick 3550
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3575
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3600
+[2026-03-01 20:50:23] Recieved 4 requests at tick 3625
+[2026-03-01 20:50:23] Recieved 3 requests at tick 3650
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3675
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3700
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3725
+[2026-03-01 20:50:23] Recieved 4 requests at tick 3750
+[2026-03-01 20:50:23] Recieved 1 requests at tick 3775
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3800
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3825
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3850
+[2026-03-01 20:50:23] Recieved 4 requests at tick 3875
+[2026-03-01 20:50:23] Recieved 0 requests at tick 3900
+[2026-03-01 20:50:23] Recieved 2 requests at tick 3925
+[2026-03-01 20:50:23] Recieved 5 requests at tick 3950
+[2026-03-01 20:50:23] Recieved 3 requests at tick 3975
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4000
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4025
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4050
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4075
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4100
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4125
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4150
+[2026-03-01 20:50:23] Recieved 4 requests at tick 4175
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4200
+[2026-03-01 20:50:23] Recieved 5 requests at tick 4225
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4250
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4275
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4300
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4325
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4350
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4375
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4400
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4425
+[2026-03-01 20:50:23] Recieved 3 requests at tick 4450
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4475
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4500
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4525
+[2026-03-01 20:50:23] Recieved 5 requests at tick 4550
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4575
+[2026-03-01 20:50:23] Recieved 4 requests at tick 4600
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4625
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4650
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4675
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4700
+[2026-03-01 20:50:23] Recieved 4 requests at tick 4725
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4750
+[2026-03-01 20:50:23] Recieved 4 requests at tick 4775
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4800
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4825
+[2026-03-01 20:50:23] Recieved 0 requests at tick 4850
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4875
+[2026-03-01 20:50:23] Recieved 2 requests at tick 4900
+[2026-03-01 20:50:23] Brought up server 14 at tick 4902
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4925
+[2026-03-01 20:50:23] Recieved 4 requests at tick 4950
+[2026-03-01 20:50:23] Recieved 1 requests at tick 4975
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5000
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5025
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5050
+[2026-03-01 20:50:23] Recieved 1 requests at tick 5075
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5100
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5125
+[2026-03-01 20:50:23] Recieved 500 requests at tick 5150
+[2026-03-01 20:50:23] Brought up server 15 at tick 5150
+[2026-03-01 20:50:23] Recieved 0 requests at tick 5175
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5200
+[2026-03-01 20:50:23] Brought up server 16 at tick 5208
+[2026-03-01 20:50:23] Recieved 0 requests at tick 5225
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5250
+[2026-03-01 20:50:23] Brought up server 17 at tick 5258
+[2026-03-01 20:50:23] Recieved 5 requests at tick 5275
+[2026-03-01 20:50:23] Recieved 500 requests at tick 5300
+[2026-03-01 20:50:23] Blocked IP 149.81.209.121 for making too many requests at tick 5300
+[2026-03-01 20:50:23] Brought up server 18 at tick 5308
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5325
+[2026-03-01 20:50:23] Recieved 5 requests at tick 5350
+[2026-03-01 20:50:23] Brought up server 19 at tick 5358
+[2026-03-01 20:50:23] Recieved 0 requests at tick 5375
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5400
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5425
+[2026-03-01 20:50:23] Took down server 17 at tick 5433
+[2026-03-01 20:50:23] Recieved 1 requests at tick 5450
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5475
+[2026-03-01 20:50:23] Recieved 5 requests at tick 5500
+[2026-03-01 20:50:23] Brought up server 19 at tick 5500
+[2026-03-01 20:50:23] Recieved 5 requests at tick 5525
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5550
+[2026-03-01 20:50:23] Brought up server 20 at tick 5550
+[2026-03-01 20:50:23] Recieved 1 requests at tick 5575
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5600
+[2026-03-01 20:50:23] Brought up server 21 at tick 5602
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5625
+[2026-03-01 20:50:23] Recieved 1 requests at tick 5650
+[2026-03-01 20:50:23] Brought up server 22 at tick 5663
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5675
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5700
+[2026-03-01 20:50:23] Took down server 11 at tick 5713
+[2026-03-01 20:50:23] Recieved 5 requests at tick 5725
+[2026-03-01 20:50:23] Recieved 0 requests at tick 5750
+[2026-03-01 20:50:23] Brought up server 22 at tick 5763
+[2026-03-01 20:50:23] Recieved 0 requests at tick 5775
+[2026-03-01 20:50:23] Recieved 3 requests at tick 5800
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5825
+[2026-03-01 20:50:23] Brought up server 23 at tick 5838
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5850
+[2026-03-01 20:50:23] Recieved 0 requests at tick 5875
+[2026-03-01 20:50:23] Took down server 12 at tick 5888
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5900
+[2026-03-01 20:50:23] Recieved 4 requests at tick 5925
+[2026-03-01 20:50:23] Recieved 5 requests at tick 5950
+[2026-03-01 20:50:23] Brought up server 23 at tick 5950
+[2026-03-01 20:50:23] Recieved 2 requests at tick 5975
+[2026-03-01 20:50:23] Recieved 3 requests at tick 6000
+[2026-03-01 20:50:23] Took down server 11 at tick 6016
+[2026-03-01 20:50:23] Recieved 1 requests at tick 6025
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6050
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6075
+[2026-03-01 20:50:23] Brought up server 23 at tick 6081
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6100
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6125
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6150
+[2026-03-01 20:50:23] Took down server 2 at tick 6171
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6175
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6200
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6225
+[2026-03-01 20:50:23] Recieved 3 requests at tick 6250
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6275
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6300
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6325
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6350
+[2026-03-01 20:50:23] Recieved 3 requests at tick 6375
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6400
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6425
+[2026-03-01 20:50:23] Recieved 4 requests at tick 6450
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6475
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6500
+[2026-03-01 20:50:23] Recieved 3 requests at tick 6525
+[2026-03-01 20:50:23] Took down server 14 at tick 6544
+[2026-03-01 20:50:23] Recieved 3 requests at tick 6550
+[2026-03-01 20:50:23] Recieved 4 requests at tick 6575
+[2026-03-01 20:50:23] Recieved 1 requests at tick 6600
+[2026-03-01 20:50:23] Brought up server 22 at tick 6600
+[2026-03-01 20:50:23] Recieved 4 requests at tick 6625
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6650
+[2026-03-01 20:50:23] Recieved 1 requests at tick 6675
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6700
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6725
+[2026-03-01 20:50:23] Recieved 4 requests at tick 6750
+[2026-03-01 20:50:23] Brought up server 23 at tick 6764
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6775
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6800
+[2026-03-01 20:50:23] Took down server 14 at tick 6818
+[2026-03-01 20:50:23] Recieved 2 requests at tick 6825
+[2026-03-01 20:50:23] Recieved 4 requests at tick 6850
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6875
+[2026-03-01 20:50:23] Recieved 4 requests at tick 6900
+[2026-03-01 20:50:23] Brought up server 23 at tick 6900
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6925
+[2026-03-01 20:50:23] Recieved 0 requests at tick 6950
+[2026-03-01 20:50:23] Brought up server 24 at tick 6950
+[2026-03-01 20:50:23] Recieved 5 requests at tick 6975
+[2026-03-01 20:50:23] Recieved 500 requests at tick 7000
+[2026-03-01 20:50:23] Brought up server 25 at tick 7000
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7025
+[2026-03-01 20:50:23] Recieved 3 requests at tick 7050
+[2026-03-01 20:50:23] Took down server 12 at tick 7050
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7075
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7100
+[2026-03-01 20:50:23] Took down server 16 at tick 7106
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7125
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7150
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7175
+[2026-03-01 20:50:23] Brought up server 24 at tick 7175
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7200
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7225
+[2026-03-01 20:50:23] Took down server 8 at tick 7225
+[2026-03-01 20:50:23] Recieved 3 requests at tick 7250
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7275
+[2026-03-01 20:50:23] Brought up server 24 at tick 7277
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7300
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7325
+[2026-03-01 20:50:23] Brought up server 25 at tick 7327
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7350
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7375
+[2026-03-01 20:50:23] Took down server 8 at tick 7384
+[2026-03-01 20:50:23] Recieved 3 requests at tick 7400
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7425
+[2026-03-01 20:50:23] Brought up server 25 at tick 7434
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7450
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7475
+[2026-03-01 20:50:23] Took down server 7 at tick 7484
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7500
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7525
+[2026-03-01 20:50:23] Took down server 13 at tick 7534
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7550
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7575
+[2026-03-01 20:50:23] Brought up server 24 at tick 7584
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7600
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7625
+[2026-03-01 20:50:23] Brought up server 25 at tick 7634
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7650
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7675
+[2026-03-01 20:50:23] Brought up server 26 at tick 7684
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7700
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7725
+[2026-03-01 20:50:23] Brought up server 27 at tick 7734
+[2026-03-01 20:50:23] Recieved 0 requests at tick 7750
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7775
+[2026-03-01 20:50:23] Brought up server 28 at tick 7784
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7800
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7825
+[2026-03-01 20:50:23] Brought up server 29 at tick 7834
+[2026-03-01 20:50:23] Recieved 5 requests at tick 7850
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7875
+[2026-03-01 20:50:23] Brought up server 30 at tick 7884
+[2026-03-01 20:50:23] Recieved 2 requests at tick 7900
+[2026-03-01 20:50:23] Recieved 4 requests at tick 7925
+[2026-03-01 20:50:23] Brought up server 31 at tick 7934
+[2026-03-01 20:50:23] Recieved 1 requests at tick 7950
+[2026-03-01 20:50:23] Recieved 3 requests at tick 7975
+[2026-03-01 20:50:23] Brought up server 32 at tick 7984
+[2026-03-01 20:50:23] Recieved 3 requests at tick 8000
+[2026-03-01 20:50:23] Recieved 0 requests at tick 8025
+[2026-03-01 20:50:23] Brought up server 33 at tick 8034
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8050
+[2026-03-01 20:50:23] Recieved 5 requests at tick 8075
+[2026-03-01 20:50:23] Brought up server 34 at tick 8084
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8100
+[2026-03-01 20:50:23] Recieved 5 requests at tick 8125
+[2026-03-01 20:50:23] Brought up server 35 at tick 8134
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8150
+[2026-03-01 20:50:23] Recieved 5 requests at tick 8175
+[2026-03-01 20:50:23] Brought up server 36 at tick 8184
+[2026-03-01 20:50:23] Recieved 3 requests at tick 8200
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8225
+[2026-03-01 20:50:23] Brought up server 37 at tick 8234
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8250
+[2026-03-01 20:50:23] Recieved 500 requests at tick 8275
+[2026-03-01 20:50:23] Recieved 5 requests at tick 8300
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8325
+[2026-03-01 20:50:23] Recieved 5 requests at tick 8350
+[2026-03-01 20:50:23] Recieved 0 requests at tick 8375
+[2026-03-01 20:50:23] Brought up server 38 at tick 8375
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8400
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8425
+[2026-03-01 20:50:23] Took down server 30 at tick 8425
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8450
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8475
+[2026-03-01 20:50:23] Took down server 12 at tick 8478
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8500
+[2026-03-01 20:50:23] Recieved 3 requests at tick 8525
+[2026-03-01 20:50:23] Took down server 35 at tick 8548
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8550
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8575
+[2026-03-01 20:50:23] Brought up server 36 at tick 8598
+[2026-03-01 20:50:23] Recieved 5 requests at tick 8600
+[2026-03-01 20:50:23] Recieved 0 requests at tick 8625
+[2026-03-01 20:50:23] Brought up server 37 at tick 8648
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8650
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8675
+[2026-03-01 20:50:23] Brought up server 38 at tick 8698
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8700
+[2026-03-01 20:50:23] Recieved 0 requests at tick 8725
+[2026-03-01 20:50:23] Brought up server 39 at tick 8748
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8750
+[2026-03-01 20:50:23] Recieved 500 requests at tick 8775
+[2026-03-01 20:50:23] Recieved 500 requests at tick 8800
+[2026-03-01 20:50:23] Recieved 4 requests at tick 8825
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8850
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8875
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8900
+[2026-03-01 20:50:23] Recieved 2 requests at tick 8925
+[2026-03-01 20:50:23] Recieved 0 requests at tick 8950
+[2026-03-01 20:50:23] Recieved 1 requests at tick 8975
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9000
+[2026-03-01 20:50:23] Recieved 3 requests at tick 9025
+[2026-03-01 20:50:23] Recieved 4 requests at tick 9050
+[2026-03-01 20:50:23] Recieved 3 requests at tick 9075
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9100
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9125
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9150
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9175
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9200
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9225
+[2026-03-01 20:50:23] Brought up server 40 at tick 9225
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9250
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9275
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9300
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9325
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9350
+[2026-03-01 20:50:23] Brought up server 41 at tick 9350
+[2026-03-01 20:50:23] Recieved 3 requests at tick 9375
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9400
+[2026-03-01 20:50:23] Brought up server 42 at tick 9400
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9425
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9450
+[2026-03-01 20:50:23] Brought up server 43 at tick 9450
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9475
+[2026-03-01 20:50:23] Recieved 3 requests at tick 9500
+[2026-03-01 20:50:23] Brought up server 44 at tick 9500
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9525
+[2026-03-01 20:50:23] Recieved 4 requests at tick 9550
+[2026-03-01 20:50:23] Brought up server 45 at tick 9550
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9575
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9600
+[2026-03-01 20:50:23] Brought up server 46 at tick 9600
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9625
+[2026-03-01 20:50:23] Recieved 3 requests at tick 9650
+[2026-03-01 20:50:23] Brought up server 47 at tick 9650
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9675
+[2026-03-01 20:50:23] Recieved 4 requests at tick 9700
+[2026-03-01 20:50:23] Brought up server 48 at tick 9700
+[2026-03-01 20:50:23] Recieved 4 requests at tick 9725
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9750
+[2026-03-01 20:50:23] Brought up server 49 at tick 9750
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9775
+[2026-03-01 20:50:23] Recieved 5 requests at tick 9800
+[2026-03-01 20:50:23] Brought up server 50 at tick 9800
+[2026-03-01 20:50:23] Recieved 3 requests at tick 9825
+[2026-03-01 20:50:23] Recieved 4 requests at tick 9850
+[2026-03-01 20:50:23] Brought up server 51 at tick 9850
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9875
+[2026-03-01 20:50:23] Recieved 2 requests at tick 9900
+[2026-03-01 20:50:23] Brought up server 52 at tick 9900
+[2026-03-01 20:50:23] Recieved 4 requests at tick 9925
+[2026-03-01 20:50:23] Recieved 1 requests at tick 9950
+[2026-03-01 20:50:23] Brought up server 53 at tick 9950
+[2026-03-01 20:50:23] Recieved 0 requests at tick 9975
+[2026-03-01 20:50:23] Load balancer stopped
+[2026-03-01 20:50:23] Current server count: 54
+[2026-03-01 20:50:23] Inactive server count: 0
+[2026-03-01 20:50:23] Total time up: 10000
+[2026-03-01 20:50:23] Rejected requests: 463
+[2026-03-01 20:50:23] Blocked IPs:  149.81.209.121
+[2026-03-01 20:50:23] Requests processed: 6019

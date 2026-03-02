@@ -1,4 +1,5 @@
 #include "LoadBalancer.h"
+#include <iostream>
 #include <fstream>
 #include <ctime>
 
@@ -21,12 +22,15 @@ LoadBalancer::LoadBalancer(int numServers)
     maxServerCount = numServers;
     rejectedRequestCount = 0;
     uptime = 0;
+    serverChangeWait = 0;
+    log("Load balancer started with " + std::to_string(numServers) + " servers", "white");
 }
 int LoadBalancer::getServerCount(){
     return numServers;
 }
 void LoadBalancer::receiveRequestBatch(std::queue<Request> rq){
-    log("Recieved " + std::to_string(rq.size()) + " requests", "white");
+    if(rq.empty()) return;
+    log("Recieved " + std::to_string(rq.size()) + " requests at tick " + std::to_string(uptime), "white");
     while(!rq.empty()){
         receiveRequest(rq.front());
         rq.pop();
@@ -34,9 +38,9 @@ void LoadBalancer::receiveRequestBatch(std::queue<Request> rq){
 }
 void LoadBalancer::receiveRequest(Request r)
 {
-    checkPreviousIPs(r);
     if (checkFirewall(r))
     {
+        checkPreviousIPs(r);
         int smallest = smallestQueue();
         requestQueues.at(smallest).push(r);
         queuedTime.at(smallest) += r.getTime();
@@ -44,11 +48,18 @@ void LoadBalancer::receiveRequest(Request r)
     else
     {
         rejectedRequestCount += 1;
-        log("Blocked request from " + r.getIPin() + " to " + r.getIPout() + " of type " + r.getJobType() + " with expected time of " + std::to_string(r.getTime()), "red");
     }
 }
 void LoadBalancer::tick()
 {
+    if(serverNeeded() && serverChangeWait == 0){
+        bringUpServer();
+        serverChangeWait = serverChangeWaitTime;
+    }
+    if(serverIdle() && serverChangeWait == 0){
+        takeDownServer();
+        serverChangeWait = serverChangeWaitTime;
+    }
     for (int i = 0; i < numServers; i++)
     {
         if(servers.at(i).isOpen() && requestQueues.at(i).size() != 0){
@@ -59,6 +70,9 @@ void LoadBalancer::tick()
         servers.at(i).tick();
     }
     uptime += 1;
+    if(serverChangeWait > 0){
+        serverChangeWait -= 1;
+    }
 }
 bool LoadBalancer::checkFirewall(Request r)
 {
@@ -81,11 +95,12 @@ void LoadBalancer::checkPreviousIPs(Request r)
             count++;
         }
     }
-    if (count > 15)
+    if (count > 50)
     {
         blockedIPs.push_back(r.getIPin());
-        log("Blocked IP " + r.getIPin() + " for making too many requests", "red");
+        log("Blocked IP " + r.getIPin() + " for making too many requests at tick " + std::to_string(uptime), "red");
     }
+    count = 0;
     for(int i = 0; i < previousIPs.size(); i++)
     {
         if (r.getIPout() == previousIPs.at(i))
@@ -93,21 +108,27 @@ void LoadBalancer::checkPreviousIPs(Request r)
             count++;
         }
     }
-    if (count > 15)    {
+    if (count > 50)    {
         blockedIPs.push_back(r.getIPout());
-        log("Blocked IP " + r.getIPout() + " for making too many requests", "red");
+        log("Blocked IP " + r.getIPout() + " for making too many requests at tick " + std::to_string(uptime), "red");
     }
     previousIPs.push_back(r.getIPin());
     previousIPs.push_back(r.getIPout());
-    if(previousIPs.size() > 500)
+    while(previousIPs.size() > 1000)
     {
-        previousIPs.erase(previousIPs.begin(), previousIPs.begin() + 2);
+        previousIPs.erase(previousIPs.begin());
     }
 }
 
 void LoadBalancer::takeDownServer()
 {
+    if(numServers == 0) {
+        return;
+    }
+
     int smallest = smallestQueue();
+    if(smallest < 0 || smallest >= numServers) return;
+
     std::queue<Request> tempQueue = requestQueues.at(smallest);
     if (!servers.at(smallest).isOpen())
     {
@@ -116,12 +137,13 @@ void LoadBalancer::takeDownServer()
     servers.erase(servers.begin() + smallest);
     requestQueues.erase(requestQueues.begin() + smallest);
     queuedTime.erase(queuedTime.begin() + smallest);
+    numServers -= 1;
     while (!tempQueue.empty())
     {
         receiveRequest(tempQueue.front());
         tempQueue.pop();
     }
-    log("Took down server " + std::to_string(smallest), "yellow");
+    log("Took down server " + std::to_string(smallest) + " at tick " + std::to_string(uptime), "yellow");
 }
 void LoadBalancer::bringUpServer()
 {
@@ -140,11 +162,13 @@ void LoadBalancer::bringUpServer()
     if(numServers > maxServerCount){
         maxServerCount = numServers;
     }
-    log("Brought up server " + std::to_string(numServers - 1), "green");
+    log("Brought up server " + std::to_string(numServers - 1) + " at tick " + std::to_string(uptime), "green");
 }
 bool LoadBalancer::serverNeeded()
 {
-    if (queuedTime.at(smallestQueue()) > maximumTime)
+    if(numServers == 0) return false;
+    int idx = smallestQueue();
+    if (queuedTime.at(idx) > maximumTime)
     {
         return true;
     }
@@ -152,7 +176,9 @@ bool LoadBalancer::serverNeeded()
 }
 bool LoadBalancer::serverIdle()
 {
-    if (queuedTime.at(largestQueue()) < minimumTime)
+    if(numServers == 0) return false;
+    int idx = largestQueue();
+    if (queuedTime.at(idx) < minimumTime)
     {
         return true;
     }
@@ -160,8 +186,9 @@ bool LoadBalancer::serverIdle()
 }
 int LoadBalancer::smallestQueue()
 {
+    if(numServers == 0) return -1;
     int smallest = 0;
-    for (int i = 0; i < numServers; i++)
+    for (int i = 1; i < numServers; i++)
     {
         if (requestQueues.at(i).size() < requestQueues.at(smallest).size())
         {
@@ -172,8 +199,9 @@ int LoadBalancer::smallestQueue()
 }
 int LoadBalancer::largestQueue()
 {
+    if(numServers == 0) return -1;
     int largest = 0;
-    for (int i = 0; i < numServers; i++)
+    for (int i = 1; i < numServers; i++)
     {
         if (requestQueues.at(i).size() > requestQueues.at(largest).size())
         {
@@ -182,8 +210,7 @@ int LoadBalancer::largestQueue()
     }
     return largest;
 }
-void LoadBalancer::StartLogStatus(){ // logs number of servers, time of queues
-    log("Load balancer started with " + std::to_string(numServers) + "Servers", "white");
+void LoadBalancer::StartLog(){ // logs number of servers, time of queues
     log("Minimum time to take down server: " + std::to_string(minimumTime), "white");
     log("Maximum time to bring up server: " + std::to_string(maximumTime), "white");
     int totalTicks = 0;
@@ -192,7 +219,8 @@ void LoadBalancer::StartLogStatus(){ // logs number of servers, time of queues
     }
     log("Total queued time of: " + std::to_string(totalTicks), "white");
 }
-void LoadBalancer::EndLogStatus(){ // logs remaining requests, active servers, inactive servers, rejected requests, blocked IPs
+void LoadBalancer::EndLog(){ // logs remaining requests, active servers, inactive servers, rejected requests, blocked IPs
+    log("Load balancer stopped", "red");
     int totalTicks = 0;
     for(int i = 0; i < numServers; i++){
         totalTicks = queuedTime.at(i);
@@ -210,31 +238,32 @@ void LoadBalancer::EndLogStatus(){ // logs remaining requests, active servers, i
 }
 void LoadBalancer::log(std::string message, std::string color)
 {
-    // open log file in append mode
-    std::ofstream logFile("loadbalancer.log", std::ios::app);
-    if (!logFile.is_open())
-    {
-        // cannot open log file, silently fail or could throw
-        return;
-    }
-
-    // get current time as string
     std::time_t now = std::time(nullptr);
     char buf[64];
     if (std::strftime(buf, sizeof(buf), "%Y-%m-%d %H:%M:%S", std::localtime(&now)) == 0)
-    {
         buf[0] = '\0';
-    }
 
-    // write timestamp, color tag, and message
-    logFile << "[" << buf << "] ";
-    if (!color.empty())
-    {
-        logFile << "(" << color << ") ";
-    }
-    logFile << message << "\n";
+    std::string timestamp = "[" + std::string(buf) + "] ";
 
-    logFile.close();
+    std::string colorCode;
+
+    if (color == "red") colorCode = "\033[31m";
+    else if (color == "green") colorCode = "\033[32m";
+    else if (color == "yellow") colorCode = "\033[33m";
+    else if (color == "blue") colorCode = "\033[34m";
+    else if (color == "magenta") colorCode = "\033[35m";
+    else if (color == "cyan") colorCode = "\033[36m";
+    else if (color == "white") colorCode = "\033[37m";
+    else colorCode = "";
+
+    if (!colorCode.empty())
+        std::cout << timestamp << colorCode << message << "\033[0m\n";
+    else
+        std::cout << timestamp << message << "\n";
+
+    std::ofstream logFile("loadbalancer.log", std::ios::app);
+    if (logFile.is_open())
+        logFile << timestamp << message << "\n";
 }
 
 void LoadBalancer::loadConfig(std::string filename)
@@ -262,6 +291,10 @@ void LoadBalancer::loadConfig(std::string filename)
         else if (key == "maxTime")
         {
             maximumTime = std::stoi(value);
+        }
+        else if(key == "serverChangeTime")
+        {
+            serverChangeWaitTime = std::stoi(value);
         }
     }
     configFile.close();

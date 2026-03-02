@@ -1,3 +1,4 @@
+#ifndef REQUESTGENERATOR_H
 #define REQUESTGENERATOR_H
 #include "Request.h"
 #include <queue>
@@ -8,9 +9,9 @@
 // Creates a queue of requeust that will be sent to the load balancer in the main file.
 class RequestGenerator {
     private:
-        std::string attackIP; //IP address that will send several requests in a burst
         int maxRequests; //used to limit overloading load balancer
         int maxTime; //used to limit overloading load balancer
+        std::random_device rd; // used for random number generation
     public:
         RequestGenerator();
         std::queue<Request> fillServers(int numRequests);
@@ -18,9 +19,10 @@ class RequestGenerator {
         Request generateRequest();
         std::string generateRandomIP();
         void loadConfiguration(std::string filename);
-        bool randomAttack();
+        bool randomAttackBurst();
         bool randomBurst();
         int randomRequestCount();
         int randomTime();
         char randomCategory();
 };
+#endif

@@ -1,3 +1,4 @@
+#ifndef WEBSERVER_H
 #define WEBSERVER_H
 #include "Request.h"
 #include <string>
@@ -17,3 +18,4 @@ class Webserver{
         Request getCurRequest();
         Webserver();
 };
+#endif
