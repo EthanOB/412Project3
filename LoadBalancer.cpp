@@ -233,10 +233,6 @@ void LoadBalancer::StartLog(){ // logs number of servers, time of queues
 void LoadBalancer::EndLog(){ // logs remaining requests, active servers, inactive servers, rejected requests, blocked IPs
     log("----------------------------------------------------------", "white");
     log("Load balancer stopped", "red");
-    int totalTicks = 0;
-    for(int i = 0; i < numServers; i++){
-        totalTicks = queuedTime.at(i);
-    }
     log("Current server count: " + std::to_string(numServers), "white");
     log("Inactive server count: " + std::to_string(maxServerCount - numServers), "white");
     log("Total time up: " + std::to_string(uptime), "white");
