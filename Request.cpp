@@ -1,3 +1,8 @@
+/**
+ * @file Request.cpp
+ * @brief Simple data class for Request; implements accessor methods.
+ */
+
 #include "Request.h"
 
 Request::Request() {

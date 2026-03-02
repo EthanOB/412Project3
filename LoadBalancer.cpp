@@ -1,3 +1,8 @@
+/**
+ * @file LoadBalancer.cpp
+ * @brief Implementation of the LoadBalancer methods declared in LoadBalancer.h.
+ */
+
 #include "LoadBalancer.h"
 #include <iostream>
 #include <fstream>

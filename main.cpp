@@ -1,3 +1,8 @@
+/**
+ * @file main.cpp
+ * @brief Entry point for the simulation program, prompts user and runs load balancer.
+ */
+
 #include "Request.h"
 #include "LoadBalancer.h"
 #include "RequestGenerator.h"

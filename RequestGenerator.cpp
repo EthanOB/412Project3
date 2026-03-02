@@ -1,3 +1,8 @@
+/**
+ * @file RequestGenerator.cpp
+ * @brief Definitions for RequestGenerator; produces queues of random requests.
+ */
+
 #include "RequestGenerator.h"
 #include <iostream>
 #include <fstream>

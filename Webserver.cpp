@@ -1,3 +1,8 @@
+/**
+ * @file Webserver.cpp
+ * @brief Implementation of Webserver methods, simulates server behavior.
+ */
+
 #include "Request.h"
 #include <string>
 #include "Webserver.h"
