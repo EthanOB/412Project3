@@ -38,6 +38,13 @@ int getTickCount() {
     }
 }
 
+int randomBatch() {
+    static std::random_device rd;
+    static std::mt19937 gen(rd());
+    static std::uniform_int_distribution<> dist(0, 100);
+    return dist(gen);
+}
+
 int main(){
     RequestGenerator RQ;
     LoadBalancer LB = LoadBalancer(getServerCount());
@@ -45,7 +52,7 @@ int main(){
     LB.receiveRequestBatch(RQ.fillServers(LB.getServerCount() * 100));
     LB.StartLog();
     for(int i = 0; i < tickMax; i++){
-        if(i % 25 == 0&& i != 0){
+        if(randomBatch() == 0 && i != 0){
             LB.receiveRequestBatch(RQ.generateRandomRequests());
         }
         LB.tick();

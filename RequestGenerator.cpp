@@ -115,7 +115,7 @@ bool RequestGenerator::randomBurst()
 int RequestGenerator::randomRequestCount()
 {
     static std::mt19937 gen(rd());
-    static std::uniform_int_distribution<> dist(0, floor(maxRequests * 0.01));
+    static std::uniform_int_distribution<> dist(0, floor(maxRequests * 0.07));
     return dist(gen);
 }
 
