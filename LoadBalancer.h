@@ -5,21 +5,30 @@
 #include <vector>
 #include <string>
 
+// LoadBalancer class manages multiple web servers and distributes incoming requests among them.
+// contains most of the functionality of the program since knowledge of all servers and request is needed.
 class LoadBalancer{
     private:
-        int numServers;
-        std::vector<Webserver> servers;
-        std::vector<std::queue<Request>> requestQueues;
-        std::vector<int> queuedTime;
-        std::vector<std::string> blockedIPs;
+        int numServers; // number of servers
+        std::vector<Webserver> servers; // stores servers
+        std::vector<std::queue<Request>> requestQueues; // stores next request for each server
+        std::vector<int> queuedTime; // used to find which server to add requests to
+        std::vector<std::string> previousIPs; // used to find which IPs to block
+        std::vector<std::string> blockedIPs; // used for firewall
+        int minimumTime; // used to find when to take down servers
+        int maximumTime; // used to find when to bring up servers
     public:
         LoadBalancer(int numServers);
-        void receiveRequest(Request r);
-        void tick();
-        void checkFirewall(Request r);
-        void takeDownServer();
-        void bringUpServer();
-        bool serverNeeded();
-        bool serverIdle();
-
+        void receiveRequest(Request r); //recieves requests and adds to smallest queue
+        void tick(); // ticks all servers
+        bool checkFirewall(Request r); //checks request for blocked IPs
+        void checkPreviousIPs(Request r); // checks request for IPs that have made many requests in the past
+        void takeDownServer(); // takes down smallest server and redistributes requests to other servers
+        void bringUpServer(); // brings up new server and redistributes requests to be balanced
+        bool serverNeeded(); // checks if another server is needed
+        bool serverIdle(); // checks if a server needs to be removed
+        int smallestQueue(); // finds index of smallest queue for other functions
+        int largestQueue(); // finds index of the largest queue for other functions
+        void log(std::string message, std::string color); // logs messages to the console with color.
+        void loadConfig(std::string filename); // loads config file to set minimum and maximum times for servers.
 };

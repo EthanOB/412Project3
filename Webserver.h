@@ -14,5 +14,6 @@ class Webserver{
         bool isOpen();
         void acceptRequest(Request r);
         void tick();
+        Request getCurRequest();
         Webserver();
 };

@@ -24,6 +24,10 @@ void Webserver::tick()
     }
 }
 
+Request Webserver::getCurRequest(){
+    return curRequest;
+}
+
 Webserver::Webserver()
 {
     curRequest = Request();
