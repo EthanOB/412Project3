@@ -9,6 +9,14 @@
 #include <iostream>
 #include <limits>
 
+/**
+ * @brief Prompt the user to enter an initial server count.
+ *
+ * Loops until a positive integer is provided. Handles invalid input by
+ * clearing the stream state and discarding the rest of the line.
+ *
+ * @return A positive integer representing the desired number of servers.
+ */
 int getServerCount() {
     int serverCount;
 
@@ -26,6 +34,14 @@ int getServerCount() {
     }
 }
 
+/**
+ * @brief Prompt the user for how many simulation ticks to execute.
+ *
+ * Continues asking until a positive integer is entered, using the same
+ * validation logic as getServerCount().
+ *
+ * @return The number of ticks to run the load balancer.
+ */
 int getTickCount() {
     int tickCount;
 
@@ -43,6 +59,15 @@ int getTickCount() {
     }
 }
 
+/**
+ * @brief Generate an occasional random event indicator.
+ *
+ * Returns a uniformly distributed integer between 0 and 100. The calling
+ * code treats a value of 0 as the trigger for creating a new batch of
+ * requests.
+ *
+ * @return Random integer in [0,100].
+ */
 int randomBatch() {
     static std::random_device rd;
     static std::mt19937 gen(rd());
