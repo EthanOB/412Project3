@@ -1,2 +1,4 @@
 a.out
 *.log
+*.txt
+.DS_Store

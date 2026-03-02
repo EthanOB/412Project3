@@ -218,8 +218,15 @@ void LoadBalancer::StartLog(){ // logs number of servers, time of queues
         totalTicks = queuedTime.at(i);
     }
     log("Total queued time of: " + std::to_string(totalTicks), "white");
+    int totalRequests = 0;
+    for(int i = 0; i < numServers; i++){
+        totalRequests += requestQueues.at(i).size();
+    }
+    log("Total queued requests: " + std::to_string(totalRequests) + " with task times between 1 and " + std::to_string(maxTaskTime), "white");
+    log("----------------------------------------------------------", "white");
 }
 void LoadBalancer::EndLog(){ // logs remaining requests, active servers, inactive servers, rejected requests, blocked IPs
+    log("----------------------------------------------------------", "white");
     log("Load balancer stopped", "red");
     int totalTicks = 0;
     for(int i = 0; i < numServers; i++){
@@ -234,6 +241,11 @@ void LoadBalancer::EndLog(){ // logs remaining requests, active servers, inactiv
         ips += " " + blockedIPs.at(i);
     }
     log("Blocked IPs: " + ips, "white");
+    int remainingRequests = 0;
+    for(int i = 0; i < numServers; i++){
+        remainingRequests += requestQueues.at(i).size();
+    }
+    log("Remaining requests: " + std::to_string(remainingRequests), "white");
     log("Requests processed: " + std::to_string(requestsProcessed), "white");
 }
 void LoadBalancer::log(std::string message, std::string color)
@@ -295,6 +307,10 @@ void LoadBalancer::loadConfig(std::string filename)
         else if(key == "serverChangeTime")
         {
             serverChangeWaitTime = std::stoi(value);
+        }
+        else if(key == "maxRequestTime")
+        {
+            maxTaskTime = std::stoi(value);
         }
     }
     configFile.close();

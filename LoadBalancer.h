@@ -22,6 +22,7 @@ class LoadBalancer{
         int rejectedRequestCount; // used for logs
         int uptime; // used for logs
         int requestsProcessed; // used for logs
+        int maxTaskTime; // used for logs
         int serverChangeWait; // used to prevent too many servers from being added or removed at once
         int serverChangeWaitTime; // used to set time to wait between server changes
     public:
