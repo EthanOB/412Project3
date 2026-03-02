@@ -17,8 +17,14 @@ class LoadBalancer{
         std::vector<std::string> blockedIPs; // used for firewall
         int minimumTime; // used to find when to take down servers
         int maximumTime; // used to find when to bring up servers
+        int maxServerCount; // used for logs
+        int rejectedRequestCount; // used for logs
+        int uptime; // used for logs
+        int requestsProcessed; // used for logs
     public:
         LoadBalancer(int numServers);
+        int getServerCount();
+        void receiveRequestBatch(std::queue<Request> rq);
         void receiveRequest(Request r); //recieves requests and adds to smallest queue
         void tick(); // ticks all servers
         bool checkFirewall(Request r); //checks request for blocked IPs
@@ -29,6 +35,8 @@ class LoadBalancer{
         bool serverIdle(); // checks if a server needs to be removed
         int smallestQueue(); // finds index of smallest queue for other functions
         int largestQueue(); // finds index of the largest queue for other functions
+        void StartLogStatus(); // logs number of servers, time of queues
+        void EndLogStatus(); // logs remaining requests, active servers, inactive servers, rejected requests, blocked IPs
         void log(std::string message, std::string color); // logs messages to the console with color.
         void loadConfig(std::string filename); // loads config file to set minimum and maximum times for servers.
 };
